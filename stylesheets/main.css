@@ -21,7 +21,7 @@ background: #fff;
 }
 
 .companyjumbotron {
-    background: url(/img/background_images/companybg.png) center;
+    background: url(https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/background_images/companybg.png) center;
     background-size: contain;
     height: 50vh;
     color: #0099ff;
