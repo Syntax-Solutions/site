@@ -1,0 +1,25 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.zframe {z-index: 200;}
+.teal-text {
+    font-size: 50px;
+}
+.card-panel {
+    text-align: center;
+}
+.pagination .active {
+    background-color: #4db6ac !important;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.fixed {
+  position: fixed;
+}
+a.backtossmessage {
+  position: fixed; bottom: 0; background-color: #262626; color: #fff; text-align: center; width: 100%; padding: 1%; text-decoration: none;
+  z-index: 5;
+}
+a.backtossmessage:hover {
+  background-color: #595959; text-decoration: none;
+}

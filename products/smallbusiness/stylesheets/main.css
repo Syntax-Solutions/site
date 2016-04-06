@@ -1,0 +1,24 @@
+@import ("https://fonts.googleapis.com/css?family=Roboto:400,700,300");
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+}
+hr {
+    border: 1px solid #ececec;
+    position: relative;
+}
+#section2 {
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-color: #e8eaf6;
+}
+#section2 a {
+    color: white;
+}
+.indent {
+    text-indent: 2%;
+}
+.pagination > .active {
+    background: #607d8b !important;
+}
