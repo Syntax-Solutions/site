@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--CHARACTER SET-->
+    <meta charset='utf-8'>
+    <!--COMPATIBILITY FOR INTERNET EXPLORER-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--SEARCH ENGINE KEYWORDS-->
+    <meta name="keywords" content="web design, developers">
+    <!--RESPONSIVE ELEMENTS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--LATEST JQUERY LIBRARY-->
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--LATEST COMPILED BOOTSTRAP LIBRARY COURTESY OF TWITTER-->   
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> 
+    <!--LATEST COMPILED JAVASCRIPT LIBRARY-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--ADDITIONAL FONT STYLES-->
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400' rel='stylesheet' type='text/css'>
+    <!--SYNTAX SOLUTIONS STYLESHEET-->
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <!--SITE TITLE-->
+    <title>Syntax Solutions Tutorials</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="/stylesheets/animate.css">
+      <script src="/js/navchange.js"></script>
+      <script src="/js/scripts.js"></script>
+      <script src="/js/wow.js"></script>
+<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-blue.min.css" />
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+            mdl-layout--fixed-tabs">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Tutorials</span>
+        
+    </div>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Home</a>
+      <a href="#fixed-tab-2" class="mdl-layout__tab">Google Maps</a>
+      <a href="#fixed-tab-3" class="mdl-layout__tab">Block Groups</a>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Tutorials</span>
+      <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Tutorials Home</a>
+      <a class="mdl-navigation__link" href="/">Syntax Solutions Home</a>
+      <a class="mdl-navigation__link" href="products.html">Products</a>
+      <a class="mdl-navigation__link" href="company.html">Company</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+      <div class="page-content">
+        
+        <div class="intro-section">
+            <div class="container">
+                <h1><big>Step-by-Step Tutorials</big></h1> 
+                <i class="material-icons">code</i>
+            </div>
+        </div>
+  
+      <div class="col-md-8 col-md-offset-2"><div class="page-contents">
+    <ul class="no-bullets">
+        <li>Block Groups</li>
+        <li class="sub">Live Preview</li>
+        <li>Google Maps</li>
+        <li class="sub">Live Preview</li>
+    </ul>
+</div>
+
+        
+        </div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+      <div class="page-content">
+        
+        <section id="googlemaps">
+            <div class="container">
+                <h1>Google Maps</h1>
+              <h3>What is it?</h3>
+              <p><a href="http://google.com">Google</a> has created an <abbr title="application program interface">API</abbr> to help developers apply elements provided by Google to enhance website UI and usability.</p>
+              <h3>Where to begin:</h3>
+              <p>Start by setting up your page with a container for your map.</p>
+            <code>
+            &lt;div id="map" style="width:100%; height:400px"&gt;&lt;/div>
+            </code>
+            <p>Next, you'll begin applying some JavaScript required by the Google Maps <abbr title="Application Programming Interface">API</abbr></p>
+              
+            <iframe height='268' scrolling='no' src='//codepen.io/syntax-solutions/embed/XdMBgV/?height=268&theme-id=0&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/syntax-solutions/pen/XdMBgV/'>XdMBgV</a> by Syntax Solutions (<a href='http://codepen.io/syntax-solutions'>@syntax-solutions</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+            <p>Finally, you'll have to run a pre-determined script to access the Google Maps host.</p>
+            <code>&lt;script src="https://maps.googleapis.com/maps/api/js">&lt;/script></code>
+                  
+              <br>
+              <br>
+              <section id="gmexample">
+                <div id="map" style="width:100%;height:400px"></div>
+          <script src="https://maps.googleapis.com/maps/api/js"></script>
+          <script>
+              var mapCanvas = document.getElementById("map");
+              var mapOptions = {
+                  center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+              }
+              var map = new google.maps.Map(mapCanvas, mapOptions);
+          </script>
+          </section>
+                </div>
+          </section>
+        
+        </div>
+    </section>
+    <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+      <div class="page-content"><section id="blockgroup">
+          <div class="container">
+          <h1>Block Groups</h1>
+          <h3>What are they?</h3>
+          <p>To us, block groups are considered groupings of rectangular elements which together, influence a consumer to either purchase, or investigate a product.</p>
+          <h3>Where to begin:</h3>
+            <p>You'll probably want to set up your workspace first.</p>
+            <p>Now, start by creating a series of <code>div</code>'s to contain your blocks</p>
+            
+            
+            <div class="mdl-tabs mdl-js-tabs">
+  <div class="mdl-tabs__tab-bar">
+      <a href="#html-panel" class="mdl-tabs__tab is-active">HTML</a>
+      <a href="#css-panel" class="mdl-tabs__tab">CSS</a>
+  </div>
+
+  <div class="mdl-tabs__panel is-active" id="html-panel">
+    <iframe height='309' scrolling='no' src='//codepen.io/syntax-solutions/embed/JXWZXb/?height=309&theme-id=0&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='margin-top:50px; margin-bottom:50px; width: 100%;'>See the Pen <a href='http://codepen.io/syntax-solutions/pen/JXWZXb/'>Block Groups</a> by Syntax Solutions (<a href='http://codepen.io/syntax-solutions'>@syntax-solutions</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+  <div class="mdl-tabs__panel" id="css-panel">
+    <iframe height='309' scrolling='no' src='//codepen.io/syntax-solutions/embed/JXWZXb/?height=309&theme-id=0&default-tab=css' frameborder='no' allowtransparency='true' allowfullscreen='true' style='margin-top:50px; margin-bottom:50px; width: 100%;'>See the Pen <a href='http://codepen.io/syntax-solutions/pen/JXWZXb/'>Block Groups</a> by Syntax Solutions (<a href='http://codepen.io/syntax-solutions'>@syntax-solutions</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+  </div>
+</div>
+        
+        </section>
+        <section id="bgexample">
+            <div class="example-block-section">
+                    <div class="col-sm-4 text-center">
+                        <div class="block-c25">
+                            <i class="material-icons">business</i>
+                            <h2>Block1</h2>
+                            <div class="block-section-text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mattis nisl. Morbi et lorem tempor, aliquam mauris non, sollicitudin ipsum. Maecenas hendrerit ac metus.</p>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="block-c50">
+                                <i class="material-icons">developer_mode</i>
+                                <h2>Block2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mattis nisl. Morbi et lorem tempor, aliquam mauris non, sollicitudin ipsum. Maecenas hendrerit ac metus.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="block-c75">
+                                <i class="material-icons">phone</i>
+                                <h2>Block3</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mattis nisl. Morbi et lorem tempor, aliquam mauris non, sollicitudin ipsum. Maecenas hendrerit ac metus.</p>
+                            </div>
+                        </div>
+                </div>
+           
+          </section>
+        </div>
+          
+    </section></div>
+    </section>
+  </main>
+</div>
+      </div>   
+          
+          
+      </div>
+
+  </main>
+  </body>
+</html>
