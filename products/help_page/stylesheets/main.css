@@ -1,0 +1,43 @@
+/*SYNTAX SOLUTIONS*/
+@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+}
+.banner {
+    position: absolute;
+    background-color: #437af8;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 250px;
+    }
+    .card-panel {
+        top: -90px;
+        position: relative;
+    }
+}
+big {
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.table-of-contents a:hover {
+    color:#a8a8a8;
+    padding-left:19px;
+    border-left:2px solid #fff
+}
+.table-of-contents {
+    margin-top: 100px;
+    position: absolute;
+}
+footer.page-footer .footer-copyright {
+    background-color: #437af8;
+}
