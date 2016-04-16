@@ -307,14 +307,17 @@ padding: 5px 0 0;}
     background-color: #437af8;
     height: 400px;
     width: 100%
+    overflow-x: hidden;
 }
 @media screen and (max-width: 768px) {
     .banner {
         height: 250px;
+        overflow-x: hidden;
     }
     .card-panel {
         top: -90px;
         position: relative;
+        overflow-x: hidden;
     }
 }
 big {
