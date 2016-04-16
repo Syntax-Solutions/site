@@ -121,6 +121,7 @@ input[type="color"]:focus,
     margin-bottom: 10px;
     margin-top: 10px;
     color: #777777;
+    background: #fff;
 }
 .contact-section {
     padding-top: 100px;
