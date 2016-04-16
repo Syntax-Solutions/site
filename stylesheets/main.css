@@ -126,6 +126,9 @@ input[type="color"]:focus,
 .contact-block a {
     color: #777777;
 }
+.contact-block a:hover {
+    color: #333333;
+}
 .contact-section {
     padding-top: 100px;
     padding-bottom: 100px;
