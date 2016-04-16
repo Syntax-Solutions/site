@@ -302,3 +302,26 @@ padding: 5px 0 0;}
 }
 .tabs .indicator{position:absolute;bottom:0;height:2px;background-color:#2196f3 !important; will-change:left, right}
 .tab a{color:#2196f3;display:block;width:100%;height:100%;text-overflow:ellipsis;overflow:hidden;transition:color .28s ease}
+.banner {
+    position: absolute;
+    background-color: #437af8;
+    height: 400px;
+    width: 100%
+}
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 250px;
+    }
+    .card-panel {
+        top: -90px;
+        position: relative;
+    }
+}
+big {
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
