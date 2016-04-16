@@ -123,6 +123,9 @@ input[type="color"]:focus,
     color: #777777;
     background: #fff;
 }
+.contact-block a {
+    color: #777777;
+}
 .contact-section {
     padding-top: 100px;
     padding-bottom: 100px;
