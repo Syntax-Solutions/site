@@ -1,0 +1,43 @@
+@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+}
+.banner {
+    position: absolute;
+    background-color: #6060c1;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 250px;
+    }
+    .card-panelz {
+        top: -90px;
+        position: relative;
+    }
+}
+big {
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container-fluid {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+body {
+    background: #eeeeee
+}
+.card-panelz {
+    background: #fff;
+    padding: 35px;
+    margin-top: 50px;
+    color: #666666
+}
+.social {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
