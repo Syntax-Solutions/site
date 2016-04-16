@@ -300,3 +300,4 @@ padding: 5px 0 0;}
 .ececec {
     background-color: #eeeeee;
 }
+.tabs .indicator{position:absolute;bottom:0;height:2px;background-color:#2196f3 !important; will-change:left, right}
