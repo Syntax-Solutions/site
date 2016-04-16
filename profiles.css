@@ -6,17 +6,27 @@ body {
 }
 .banner {
     position: absolute;
-    background-color: #6060c1;
+    background-color: #448aff;
     height: 400px;
     width: 100%;
     z-index: -1;
 }
-@media screen and (max-width: 768px) {
+.banner2 {
+    position: absolute;
+    background-color: #00c853;
+    height: 400px;
+    width: 100%;
+    z-index: -1;  
+}
+@media screen and (max-width: 500px) {
     .banner {
         height: 250px;
     }
+    .banner2 {
+        height: 250px;
+    }
     .card-panelz {
-        margin-top: 30px;
+        top: -90px;
         position: relative;
     }
 }
