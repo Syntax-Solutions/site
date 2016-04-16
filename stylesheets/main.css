@@ -281,3 +281,6 @@ padding: 5px 0 0;}
 .pointer {
   cursor: pointer;
 }
+.indent {
+    text-indent: 5%;
+}
