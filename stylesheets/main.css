@@ -291,6 +291,5 @@ padding: 5px 0 0;}
 .position {
     background-color: #6060c1;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
+   padding: 25px;
 }
