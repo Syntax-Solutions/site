@@ -16,7 +16,7 @@ body {
         height: 250px;
     }
     .card-panelz {
-        top: -90px;
+        top: 90px;
         position: relative;
     }
 }
