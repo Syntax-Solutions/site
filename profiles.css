@@ -42,8 +42,10 @@ big {
     padding-top: 15px;
 }
 .container-fluid {
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
 }
 .card-panelz {
     background: #fff;
