@@ -20,10 +20,10 @@ body {
 }
 @media screen and (max-width: 500px) {
     .banner {
-        height: 250px;
+        height: 200px;
     }
     .banner2 {
-        height: 250px;
+        height: 200px;
     }
     .card-panelz {
         margin-top: 25px;
