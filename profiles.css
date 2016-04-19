@@ -4,6 +4,8 @@ body {
     color: #333333;
     overflow-x: hidden;
 }
+html{overflow-x: hidden;}
+
 .banner {
     position: absolute;
     background-color: #448aff;
