@@ -12,29 +12,28 @@ html {
 }
 .banner {
     position: absolute;
-    background-color: #448aff;
-    height: 400px;
+    background-color: #6060c1;
+    height: 270px;
     width: 100%;
     z-index: -1;
 }
 .banner2 {
     position: absolute;
     background-color: #00c853;
-    height: 400px;
+    height: 270px;
     width: 100%;
     z-index: -1;  
 }
 @media screen and (max-width: 500px) {
     .banner {
-        height: 250px;
+        height: 200px;
     }
     .banner2 {
-        height: 250px;
+        height: 200px;
     }
     .card-panelz {
         margin-top: 30px;
         position: relative;
-        margin-left: inherit;
     }
 }
 big {
@@ -42,16 +41,13 @@ big {
     padding-top: 15px;
 }
 .container-fluid {
-    padding-right:15px;
-    padding-left:15px;
-    margin-right:auto;
-    margin-left:auto
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .card-panelz {
     background: #fff;
     padding: 35px;
-    margin-top: 30px;
-    color: #666666;
+    color: #666666
 }
 .social {
     margin-top: 15px;
