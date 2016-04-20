@@ -338,6 +338,6 @@ big {
     background-color: #4fc3f7 !important;
 }
 .parallax-container {
-  min-height: 500px;
+  min-height: 400px;
   height: auto;
 }
