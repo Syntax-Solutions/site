@@ -337,4 +337,7 @@ big {
 .pagination .active {
     background-color: #4fc3f7 !important;
 }
-
+.parallax-container {
+  min-height: 500px;
+  height: auto;
+}
