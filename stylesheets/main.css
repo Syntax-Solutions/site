@@ -337,3 +337,4 @@ big {
 .pagination .active {
     background-color: #4fc3f7 !important;
 }
+.side-nav-logo:hover {background-color: #455a64;}
