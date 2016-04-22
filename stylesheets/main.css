@@ -338,3 +338,23 @@ big {
     background-color: #4fc3f7 !important;
 }
 .side-nav-logo a:hover {background-color: #455a64;}
+.no-js #loader {
+    display: none;  
+    
+}
+.js #loader { 
+    display: block; 
+    position: absolute; 
+    left: 100px; 
+    top: 0; 
+    lo
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/loader.gif) center no-repeat #fff;
+}
