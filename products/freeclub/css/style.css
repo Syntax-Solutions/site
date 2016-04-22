@@ -60,3 +60,7 @@ blockquote {
     font-style: italic;
     color: #777777;
 }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #66bb6a;
+   }
