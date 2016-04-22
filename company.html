@@ -24,9 +24,17 @@
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/192x192.png" sizes="192x192" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/96x96.png" sizes="96x96" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/16x16.png" sizes="16x16" />  
+ 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
   </head>
   <body>
-  	
+  	<div class="se-pre-con"></div>
     <header>
     <!-- Navigation -->
 <div class="navbar-fixed">
@@ -50,29 +58,9 @@
 </div>
     
     </header>
-    <script>
-function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 2000);
-
-    function checkReady() {
-        if (document.getElementsByTagName('body')[0] !== undefined) {
-            window.clearInterval(intervalID);
-            callback.call(this);
-        }
-    }
-}
-
-function show(id, value) {
-    document.getElementById(id).style.display = value ? 'block' : 'none';
-}
-
-onReady(function () {
-    show('page', true);
-    show('loading', false);
-});
-</script>
+    
       
-  <div id="page" class="fadeIn" style="display:none">
+  <div id="page">
       <div class="col s12 intro">
                 <h1 class="center">Welcome to Syntax Solutions</h1>
         </div>
@@ -135,14 +123,7 @@ onReady(function () {
           </div>
         </footer>
       </div><!-- end page -->
-      <br><br><br><br><br><br><br><br><br>
-      <div class="row">
-      <div class="div col s6 l6 m6 offset-s3 offset-m3 offset-l3 loading">
-              <div class="progress blue lighten-4">
-      		  <div class="indeterminate blue"></div>
-  	      </div>
-          </div>
-         </div>
+
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/js/materialize.js"></script>
   <script src="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/js/init.js"></script>
