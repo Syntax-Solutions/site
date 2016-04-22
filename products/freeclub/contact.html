@@ -1,73 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Club Name</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- FONT -->
-    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <nav class="teal" role="navigation" style="padding-left: 3%;">
-      
-    <div class="nav-wrapper" style="margin-right: 2%;">
-        <a id="logo-container" href="index.html" class="brand-logo white-text active">Club Name</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="news.html" class="white-text">News and Updates</a></li>
-        <li><a href="contact.html" class="white-text">Contact</a></li>
-      </ul>
-      <ul id="nav-mobile" class="side-nav">
-        <div class="container"><h3 class="black-text">Menu</h3></div>
-        <li><a href="news.html">News and Updates</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-    <div class="container" style="min-height: 65.9vh">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>Club Name</title>
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <!-- FONT -->
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!-- Begin Navigation -->
+        <div class="navbar-fixed">
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper">
+                <div class="container-fluid">
+                    <a id="logo-container" href="index.html" class="brand-logo active">Club Name</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="news.html">News and Updates</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <ul id="nav-mobile" class="side-nav">
+                    <div class="container">
+                        <h3 class="black-text">Menu</h3>
+                    </div>
+                    <li><a href="news.html">News and Updates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        </div>
+        <!-- End Navigation -->
+    <div class="container">
         <div class="section">
             <h3>Contact</h3>
-                <blockquote style="font-size: 1.1rem;">Questions? Email <a href="mailto:">us</a> or fill out the form below.</blockquote>
+                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis odio erat, pellentesque nec leo a, mollis ornare nibh. In hac habitasse platea dictumst. Aenean quis nunc enim. Aliquam tortor nulla, placerat quis suscipit ac, consequat ut metus. Donec aliquam orci ut odio molestie tincidunt. Sed cursus purus nibh, et sodales libero hendrerit sed. Nullam tortor eros, hendrerit non velit nec, finibus sollicitudin tellus. Vestibulum sodales risus a lectus convallis, in ultrices nunc malesuada.
+            </blockquote>
             <form>
-                <div class="row"><p class="col m3 s12">Last Name</p><input class="col m9 s12" type="text"></div>
-                <div class="row"><p class="col m3 s12">First Name</p><input class="col m9 s12" type="text"></div>
-                <div class="row"><p class="col m3 s12">Email</p><input class="col m9 s12" type="email"></div>
-                <div class="row"><p class="col m3 s12">Message</p><textarea class="col m9 s12 materialize-textarea"></textarea></div>
+                <div class="row">
+                    <p class="col m2 s12">Last Name</p>
+                    <input class="col m9 s12" placeholder="Doe" type="text">
+                </div>
+                <div class="row">
+                    <p class="col m2 s12">First Name</p>
+                    <input class="col m9 s12" placeholder="John" type="text">
+                </div>
+                <div class="row">
+                    <p class="col m2 s12">Email</p>
+                    <input class="col m9 s12 validate" placeholder="johndoe@example.com" type="email">
+                </div>
+                <div class="row">
+                    <p class="col m2 s12">Message</p>
+                    <textarea class="col m9 s12 materialize-textarea" placeholder="Your mesage to us"></textarea>
+                </div>
             </form>
-        
         </div>
     </div>
     <div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; left: 24px;">
-           <a href="/site/"class="btn-floating btn-large red">
+        <a href="/site/"class="btn-floating btn-large red">
             <i class="material-icons">arrow_back</i>
-           </a>
-        </div>
-    <footer class="page-footer teal lighten-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l12 s12">
-          <h5 class="white-text">Club Name</h5>
-        </div>
-        <div class="col l12 s12">
-            <i class="right white-text">Club Description</i>
-        </div>
-        
-      </div>
-
+        </a>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      <a class="white-text" href="http://syntax-solutions.github.io/site/">Syntax Solutions 2016</a> <a href="mailto:info@syntax-solutions.xyz" class="white-text right">Contact Developer</a>
-      </div>
-    </div>
-  </footer>
+    <footer class="page-footer footer-stuck blue-grey lighten-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col l12 s12">
+                        <h5>Club Name</h5>
+                        <i class="right">Club Description</i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <a href="http://syntax-solutions.github.io/site/">Syntax Solutions 2016</a>
+                    <a href="mailto:info@syntax-solutions.xyz" class="right">Contact Developer</a>
+                </div>
+            </div>
+        </footer>
 
 
   <!--  Scripts-->
