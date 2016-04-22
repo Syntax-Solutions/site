@@ -24,6 +24,13 @@ html {
     width: 100%;
     z-index: -1;  
 }
+.banner3 {
+    position: absolute;
+    background-color: #437af8;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+}
 @media screen and (max-width: 500px) {
     .banner {
         height: 200px;
