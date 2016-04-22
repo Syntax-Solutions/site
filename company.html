@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/96x96.png" sizes="96x96" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/16x16.png" sizes="16x16" />  
   </head>
-  <body onload="myFunction()" style="margin:0;">
+  <body>
   	
     <header>
     <!-- Navigation -->
@@ -51,21 +51,28 @@
     
     </header>
     <script>
-var myVar;
+function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
 
-function myFunction() {
-    myVar = setTimeout(showPage, 2000);
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
 }
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
 }
+
+onReady(function () {
+    show('page', true);
+    show('indeterminate', false);
+});
 </script>
-      <div class="progress">
-      <div class="indeterminate"></div>
-  </div>
-  <div style="display:none;" id="myDiv">
+      
+  <div id="page">
       <div class="col s12 intro">
                 <h1 class="center">Welcome to Syntax Solutions</h1>
         </div>
@@ -127,7 +134,10 @@ function showPage() {
             </div>
           </div>
         </footer>
-      </div><!-- end myDiv -->
+      </div><!-- end page -->
+      <div class="progress">
+      <div class="indeterminate"></div>
+  </div>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/js/materialize.js"></script>
   <script src="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/js/init.js"></script>
