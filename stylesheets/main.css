@@ -338,7 +338,7 @@ big {
     background-color: #4fc3f7 !important;
 }
 .side-nav-logo a:hover {background-color: #455a64;}
-.preloader {
+#preloader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
