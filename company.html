@@ -26,14 +26,17 @@
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/16x16.png" sizes="16x16" />  
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-    <script>$(window).load(function () {
+    <script>
+    	jQuery(document).ready(function ($) {
+    $(window).load(function () {
         setTimeout(function(){
             $('#preloader').fadeOut('slow', function () {
             });
         },2000);
 
     });  
-});</script>
+});
+    </script>
   </head>
   <body>
     <header>
