@@ -27,23 +27,13 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 <script>
-$(document).ready(function() {
- 
-    setTimeout(function(){
-        $('body').addClass('loaded');
-    }, 3000);
- 
-});
+	$(window).load(function() {
+		$(".se-pre-con").fadeOut("slow");;
+	});
 </script>
   </head>
-  <body class="loaded">
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
+  <body>
+  	<div class="se-pre-con"></div>
     <header>
     <!-- Navigation -->
 <div class="navbar-fixed">
