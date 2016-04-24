@@ -63,3 +63,11 @@ big {
     margin-top: 15px;
     margin-bottom: 30px;
 }
+#syntax {
+	color:white;
+}
+#solutions {
+	color: #61a37a;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
