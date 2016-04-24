@@ -347,3 +347,12 @@ big {
 	z-index: 9999;
 	background: url(https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/loader.gif) center no-repeat #fff;
 }
+#syntax {
+	color:white;
+}
+#solutions {
+	color: #61a37a;
+	text-transform: uppercase;
+}
+}
+}
