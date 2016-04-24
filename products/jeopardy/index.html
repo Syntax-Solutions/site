@@ -20,16 +20,33 @@
     </nav>
     <div class="container">
         <div class="row">
-            <h4>Score</h4>
+            <h4 class="col s9">Score</h4>
+            <button class="btn red lighten-2 waves-effect waves-light col s3" style="margin-top: 2%" onclick="announceResult()">End Game</button>
+            <form id="scoreboard">
             <div class="col m6 s12 input-field">
                 <h5 class="thin col s9">Team A</h5>
-                <input type="number" class="col s3" min="0" step="100" value="0">
+                <input type="number" class="col s3" min="0" step="100" value="0" id="team1">
             </div>
             <div class="col m6 s12 input-field">
                 <h5 class="thin col s9">Team B</h5>
-                <input type="number" class="col s3" min="0" step="100" value="0">
+                <input type="number" class="col s3" min="0" step="100" value="0" id="team2">
             </div>
+            </form>
         </div>
+        <script>
+                function announceResult() {
+                    var x = document.getElementById("team1").value;
+                    var y = document.getElementById("team2").value;
+                    if (x > y) {
+                        window.alert("Team A wins!");
+                    } else if (x < y) {
+                        window.alert("Team B wins!");
+                    } else {
+                        window.alert("It's a tie!");
+                    }
+                document.getElementById("scoreboard").reset();
+                }
+        </script>   
         <div class="row">
             <div class="col l6 s12">
               <div class="card">
@@ -444,11 +461,7 @@
         </div>
     
     
-    <div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; left: 24px;">
-           <a href="/site/"class="btn-floating btn-large red">
-            <i class="material-icons">arrow_back</i>
-           </a>
-        </div>
+    
   <footer class="page-footer red darken-2">
     <div class="container">
       <div class="row">
