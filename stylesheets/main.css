@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 .bggrey {
     background-color: #eeeeee;
 }
@@ -355,4 +355,5 @@ big {
 	color: #61a37a;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
