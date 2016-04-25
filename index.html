@@ -26,23 +26,12 @@
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/192x192.png" sizes="192x192" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/96x96.png" sizes="96x96" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/16x16.png" sizes="16x16" />
-    <script>
-    	$(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 210) {
-                    $("nav").css('background-color', 'rgb(69, 90, 100)');
-                }
-            });
-        });
-    </script>
   </head>
   <body>
     <header>
     <!-- Navigation -->
 <div class="navbar-fixed">
-    <nav style="background-color: rgba(255, 255, 255, 0)">
+    <nav class="blue-grey darken-2">
     <div class="nav-wrapper">
         <div class="container">
             <a href="/site/" class="brand-logo"><span id="syntax">syntax</span> <span id="solutions">solutions</span></a>
@@ -62,7 +51,7 @@
 </div>
     
     </header>
-      <div id="index-banner" class="parallax-container">
+      <div id="index-banner" class="parallax-container no-pad-bot">
     <div class="section">
       <div class="container">
         <br><br>
