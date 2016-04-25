@@ -3,9 +3,7 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
  */
-body {font-weight: 200}
 h1, h2, h3, h4, h5 {font-weight: 200}
 .points {
     position: fixed; 
