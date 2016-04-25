@@ -26,6 +26,19 @@
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/192x192.png" sizes="192x192" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/96x96.png" sizes="96x96" />
     <link rel="icon" type="image/png" href="https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/favicon/16x16.png" sizes="16x16" />
+    <script>
+    	$(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 210) {
+                    $("nav").css('background-color', 'rgb(69, 90, 100)');
+                } else {
+                    $("nav").css('background-color', 'rgba(255, 255, 255, 0)');
+                }
+            });
+        });
+    </script>
   </head>
   <body>
     <header>
@@ -60,7 +73,7 @@
           <h5 class="header col s12 white-text light">A template provider based off of Material Design</h5>
         </div>
         <div class="row center">
-          <a href="/site/products" class="btn waves-effect waves-light teal lighten-1">Templates</a>
+          <a href="/site/products/" class="btn waves-effect waves-light teal lighten-1">Templates</a>
         </div>
         <br><br>
 
