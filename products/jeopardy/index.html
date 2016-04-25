@@ -25,11 +25,11 @@
             <form id="scoreboard">
             <div class="col m6 s12 input-field">
                 <h5 class="thin col s9">Team A</h5>
-                <input type="number" class="col s3 thin" min="0" step="100" value="0" id="team1">
+                <input type="number" class="col s3" min="0" step="100" value="0" id="team1">
             </div>
             <div class="col m6 s12 input-field">
                 <h5 class="thin col s9">Team B</h5>
-                <input type="number" class="col s3 thin" min="0" step="100" value="0" id="team2">
+                <input type="number" class="col s3" min="0" step="100" value="0" id="team2">
             </div>
             </form>
         </div>
@@ -38,15 +38,30 @@
                     var x = document.getElementById("team1").value;
                     var y = document.getElementById("team2").value;
                     if (x > y) {
-                        window.alert("Team A wins!");
+                        $('#team1wins').openModal();
                     } else if (x < y) {
-                        window.alert("Team B wins!");
+                        $('#team2wins').openModal();
                     } else {
-                        window.alert("It's a tie!");
+                        $('#tie').openModal();
                     }
-                document.getElementById("scoreboard").reset();
+document.getElementById("scoreboard").reset();
                 }
-        </script>   
+        </script>
+        <div id="team1wins" class="modal">
+            <div class="modal-content">
+              <h5>We have a winner! Team A wins!<span class="grey-text text-darken-4 modal-action modal-close"><i class="material-icons right">close</i></span></h5>
+            </div>
+        </div>
+        <div id="team2wins" class="modal">
+            <div class="modal-content">
+              <h5>We have a winner! Team B wins!<span class="grey-text text-darken-4 modal-action modal-close"><i class="material-icons right">close</i></span></h5>
+            </div>
+        </div>
+        <div id="tie" class="modal">
+            <div class="modal-content">
+              <h5>Oh no, it's a tie!<span class="grey-text text-darken-4 modal-action modal-close"><i class="material-icons right">close</i></span></h5>
+            </div>
+        </div>
         <div class="row">
             <div class="col l6 s12">
               <div class="card">
@@ -478,11 +493,7 @@
       </div>
     </div>
   </footer>
-  <div class="fixed-action-btn horizontal click-to-toggle" style="bottom: 45px; left: 24px;">
-           <a href="/site/products/products2.html"class="btn-floating btn-large red">
-            <i class="material-icons">arrow_back</i>
-           </a>
-  </div>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
