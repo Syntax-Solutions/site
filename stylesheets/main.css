@@ -341,7 +341,7 @@ big {
 .pagination .active {
     background-color: #4fc3f7 !important;
 }
-.side-nav-logo a:hover {background-color: #455a64;}
+.side-nav-logo a:hover {background: none;}
 #preloader {
 	position: fixed;
 	left: 0px;
