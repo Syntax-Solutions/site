@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Palanquin:100);
 .navigation {
     margin-left: 12px;
     margin-right: 12px;
@@ -43,7 +43,7 @@ a {
     padding-top: 70px;
     padding-bottom: 70px;
     font-weight: 100;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Palanquin', sans-serif;
 }
 .intro--text {
     font-size: 45px;
@@ -54,7 +54,7 @@ a {
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     transition: all 0.3s ease-in-out 0s;
-    font-family: 'Nixie One', cursive;
+    font-family: 'Palanquin', sans-serif;
 } 
 .image-jumbo:hover {
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
