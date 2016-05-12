@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon);
 .navigation {
     margin-left: 12px;
     margin-right: 12px;
@@ -42,6 +43,7 @@ a {
     padding-top: 70px;
     padding-bottom: 70px;
     font-weight: 100;
+    font-family: 'Coming Soon', cursive;
 }
 .intro--text {
     font-size: 45px;
@@ -52,6 +54,7 @@ a {
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     transition: all 0.3s ease-in-out 0s;
+    font-family: 'Coming Soon', cursive;
 }
 
 .image-jumbo:hover {
