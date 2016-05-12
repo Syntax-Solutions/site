@@ -1,0 +1,134 @@
+.navigation {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 12px;
+    display: block;
+}
+.navigation a {
+    display: inline-block;
+}
+.page-title {
+    color: #141723;
+    font-weight: 300;
+    font-size: 20px;
+    vertical-align: middle;
+}
+body {
+    background-color: #f6f7f8;
+    color: #141723;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: #9196a4
+}
+.vmiddle {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.link {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 9px;
+    padding-right: 9px;
+    align-content: right;
+    text-align: right;
+    float: right;
+    color: #9196a4;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.intro--section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-weight: 100;
+}
+.intro--text {
+    font-size: 45px;
+}
+.image-jumbo {
+    width: 100%;
+    margin-bottom: 24px;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.image-jumbo:hover {
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.3);
+    animation: all 0.3s ease-in-out 0s;
+}
+.img-link {
+    color: #009688 !important;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.img-desc {
+    color: #9196a4;
+    font-weight: 300;
+    font-size: italic;
+    margin-left: 20px;
+}
+.panel-heading-1 {
+    background-color: #009d43;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.panel-content-1 {
+    background-color: #00c344;
+    padding: 15px
+}
+.panel-1 {
+    background-color: white;
+    border: solid 1px #ccc
+}
+.panel-1 p {
+    padding: 25px;
+}
+.panel-heading-2 {
+    background-color: #ff9800;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.panel-content-2 {
+    background-color: #ffd180;
+    padding: 15px
+}
+.panel-2 {
+    background-color: white;
+    border: solid 1px #ccc
+}
+.panel-2 p {
+    padding: 25px;
+}
+.panel-heading-3 {
+    background-color: #03a9f4;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.panel-content-3 {
+    background-color: #80d8ff;
+    padding: 15px
+}
+.panel-3 {
+    background-color: white;
+    border: solid 1px #ccc
+}
+.panel-3 p {
+    padding: 25px;
+}
+pre {
+    padding: 25px;
+    font-family: monospace;
+    background-color: white;
+    border: solid 2px #ccc;
+    height: 400px;
+    overflow-y: scroll;
+    color: #000
+}
