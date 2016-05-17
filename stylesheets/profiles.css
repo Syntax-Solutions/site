@@ -19,8 +19,8 @@ html {
 }
 .banner2 {
     position: absolute;
-    background: url(http://www.facets.la/fullview/F_2013_181.jpg);
-    height: 270px;
+    background: url(http://www.facets.la/fullview/F_2013_181.jpg) ;
+    height: 300px;
     width: 100%;
     z-index: -1;  
 }
