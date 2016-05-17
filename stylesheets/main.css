@@ -1,6 +1,8 @@
+/*FONTS*/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+/*STYLE*/
 .bggrey {
     background-color: #eeeeee;
 }
@@ -22,7 +24,7 @@ background: #fff;
   color: #444444;
 }
 .companyjumbotron {
-    background: url(https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/background_images/companybg.png) center;
+    background: url(/img/background_images/companybg.png) center;
     background-size: contain;
     height: 50vh;
     color: #0099ff;
@@ -268,18 +270,6 @@ padding: 5px 0 0;}
 .subv {
     text-indent: 10%
 }
-.demo-card-square.mdl-card {
-  width: 100%;
-  height: 320px;
-}
-.demo-card-square > .mdl-card__title {
-  color: #fff;
-  background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
-}
-.mdl-layout__tab:hover {
-    color: white;
-}
 .email {
     margin-left: auto;
     margin-right: auto;
@@ -339,7 +329,7 @@ big {
     margin-right: 5%;
 }
 .pagination .active {
-    background-color: #4fc3f7 !important;
+    background-color: #009688 !important;
 }
 .side-nav-logo a:hover {background: none;}
 #preloader {
@@ -349,13 +339,23 @@ big {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(https://cdn.rawgit.com/Syntax-Solutions/site/gh-pages/img/loader.gif) center no-repeat #fff;
+	background: url(/img/loader.gif) center no-repeat #fff;
 }
 #syntax {
-	color:white;
-}
-#solutions {
-	color: #61a37a;
+	color: #415b65;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#solutions {
+	color: #415b65;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+nav li a {
+    color: #415b65 !important
 }

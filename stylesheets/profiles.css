@@ -12,8 +12,8 @@ html {
 }
 .banner {
     position: absolute;
-    background-color: #6060c1;
-    height: 270px;
+    background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
+    height: 300px;
     width: 100%;
     z-index: -1;
 }
@@ -64,10 +64,20 @@ big {
     margin-bottom: 30px;
 }
 #syntax {
-	color:white;
-}
-#solutions {
-	color: #61a37a;
+	color: #415b65;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#solutions {
+	color: #415b65;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+nav li a {
+    color: #415b65 !important
 }
