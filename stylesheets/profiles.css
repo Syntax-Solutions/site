@@ -19,7 +19,7 @@ html {
 }
 .banner2 {
     position: absolute;
-    background-color: #00c853;
+    background: url(http://www.facets.la/fullview/F_2013_181.jpg);
     height: 270px;
     width: 100%;
     z-index: -1;  
