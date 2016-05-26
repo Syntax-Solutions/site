@@ -342,14 +342,12 @@ big {
 	background: url(/img/loader.gif) center no-repeat #fff;
 }
 #syntax {
-	color: #415b65;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
 }
 #solutions {
-	color: #415b65;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     text-transform: uppercase;
