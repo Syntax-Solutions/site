@@ -354,9 +354,6 @@ big {
     font-size: 25px;
 
 }
-nav li a {
-    color: #415b65 !important
-}
 #index-banner {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
