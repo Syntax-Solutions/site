@@ -13,7 +13,7 @@ html {
 .banner {
     position: absolute;
     background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
-    filter: blur(3px);
+    filter: blur(5px);
     height: 300px;
     width: 100%;
     z-index: -1;
@@ -23,6 +23,7 @@ html {
     background: url(http://www.facets.la/fullview/F_2013_181.jpg) ;
     height: 300px;
     width: 100%;
+    filter: blur(5px);
     z-index: -1;  
 }
 .banner3 {
