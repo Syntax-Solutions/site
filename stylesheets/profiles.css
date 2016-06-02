@@ -13,6 +13,7 @@ html {
 .banner {
     position: absolute;
     background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
+    filter: blur(3px);
     height: 300px;
     width: 100%;
     z-index: -1;
