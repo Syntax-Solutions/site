@@ -15,13 +15,14 @@
 }
 html {
   overflow-x: hidden !important;
+  max-width: 100vw !important;
 }
 body {
 font-family: 'RobotoDraft', arial, sans-serif;
 background: #fff;
   overflow-x: hidden !important;
-  max-width: 100%;
   color: #444444;
+  max-width: 100vw !important;
 }
 .companyjumbotron {
     background: url(/img/background_images/companybg.png) center;
