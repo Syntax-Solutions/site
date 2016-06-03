@@ -369,3 +369,7 @@ nav {
 .slider .slides {
 	height: 70vh !important;
 }
+ul.indicators {
+	position: relative !important;
+	top: 20px !important; 
+}
