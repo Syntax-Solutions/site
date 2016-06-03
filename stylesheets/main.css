@@ -202,11 +202,7 @@ padding: 5px 0 0;}
 #grayyyy {
   background-color: #ececec;
   z-index: 3;
-  padding: 100px;
   min-height: 100vh;
-}
-#grayyyy .container {
-  padding: 100px;
 }
 .superbutton {
   padding: 15px;
