@@ -373,3 +373,6 @@ ul.indicators {
 	position: relative !important;
 	top: 20px !important; 
 }
+#index-banner {
+	height: 70vh !important;
+}
