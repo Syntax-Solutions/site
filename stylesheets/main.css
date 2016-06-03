@@ -14,12 +14,12 @@
     color: #0099ff;
 }
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 body {
 font-family: 'RobotoDraft', arial, sans-serif;
 background: #fff;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   max-width: 100%;
   color: #444444;
 }
