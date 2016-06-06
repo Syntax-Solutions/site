@@ -371,6 +371,6 @@ ul.indicators {
 	top: 20px !important; 
 }
 .indicator-item .active {
-	color: #009688;
-	background-color: #009688;
+	color: #009688 !important;
+	background-color: #009688 !important;
 }
