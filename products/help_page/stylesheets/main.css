@@ -38,6 +38,6 @@ big {
     margin-top: 100px;
     position: absolute;
 }
-footer.page-footer .footer-copyright {
-    background-color: #437af8;
+.footer-copyright {
+    background-color: white;
 }
