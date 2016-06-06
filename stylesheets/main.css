@@ -370,7 +370,7 @@ ul.indicators {
 	position: relative !important;
 	top: 20px !important; 
 }
-.indicator-item .active {
+ul.indicators.indicator-item.active {
 	color: #009688 !important;
 	background-color: #009688 !important;
 }
