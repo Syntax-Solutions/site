@@ -131,7 +131,7 @@ input[type="color"]:focus,
     color: #777777;
 }
 .contact-block a:hover {
-    color: #333333;
+    color: #666666;
 }
 .contact-section {
     padding-top: 100px;
@@ -372,7 +372,4 @@ ul.indicators {
 }
 .slider .indicators .indicator-item.active {
 	background-color: #009688 !important;
-}
-.contact-block {
-	background: white;
 }
