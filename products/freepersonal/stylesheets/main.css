@@ -1,13 +1,15 @@
-@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333333;
     overflow-x: hidden;
 }
+
 hr {
     border: 1px solid #ececec;
     position: relative;
 }
+
 .inline:hover {
     cursor: pointer;
 }
@@ -16,21 +18,56 @@ hr {
     margin-top: 35px;
     margin-bottom: 35px;
 }
+
+@media screen and (max-width: 768px) {
+    #section2 {
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+    }
+}
+
 #section2 {
     padding-bottom: 200px;
     padding-top: 200px;
     background-color: #e8eaf6;
 }
+
 #section2 a {
     color: white;
 }
+
 .indent {
     text-indent: 2%;
 }
+
 a.backtossmessage {
-  position: fixed; bottom: 0; background-color: #262626; color: #fff; text-align: center; width: 100%; padding: 1%; text-decoration: none;
-  z-index: 5;
+    position: fixed;
+    bottom: 0;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    text-decoration: none;
+    z-index: 5;
 }
+
 a.backtossmessage:hover {
-  background-color: #595959; text-decoration: none;
+    background-color: #595959;
+    text-decoration: none;
+}
+
+.intro-section {
+    padding: 50px;
+    background: url(http://www.wallpaperf1.co/wp-content/uploads/2016/01/FLAT-WALLPAPER-DESIGN-WF1017.jpg);
+    background-size: cover;
+    height: 55vh;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro-section {
+        padding: 5px !important;
+    }
 }
