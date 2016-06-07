@@ -373,3 +373,6 @@ ul.indicators {
 .slider .indicators .indicator-item.active {
 	background-color: #009688 !important;
 }
+.contact-block {
+	background: white;
+}
