@@ -101,7 +101,7 @@ nav {
 }
 
 .tabs .indicator {
-    background-color: #ececec !important;
+    display: none !important;
 }
 .banner-top {
     background: rgba(90, 126, 140,1);
