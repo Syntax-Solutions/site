@@ -13,7 +13,6 @@ html {
 .banner {
     position: absolute;
     background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
-    filter: blur(5px);
     height: 300px;
     width: 100%;
     z-index: -1;
@@ -23,7 +22,6 @@ html {
     background: url(http://www.facets.la/fullview/F_2013_181.jpg) ;
     height: 300px;
     width: 100%;
-    filter: blur(5px);
     z-index: -1;  
 }
 .banner3 {
@@ -82,4 +80,63 @@ big {
 }
 nav li a {
     color: #415b65 !important
+}
+nav {
+    background: #2c3e50
+}
+
+
+
+.tabs {
+    background: rgba(90, 126, 140,1) !important;
+    padding-bottom: 25px!important;
+}
+
+.tabs .tab a {
+    color: white !important;
+}
+
+.tabs .tab a:hover {
+    color: #eeeeee !important;
+}
+
+.tabs .indicator {
+    background-color: #ececec !important;
+}
+.banner-top {
+    background: rgba(90, 126, 140,1);
+    padding-top: 75px;
+    z-index: -1;
+}
+.page {
+    background: #fff;
+    padding: 5%;
+    color: #666666;
+    margin-top: 10px !important;
+    border-radius: 1px;
+    z-index: 1;
+    height: auto !important;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .page {
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 3%;
+    }
+    
+}
+.container-fluid {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+.email-links {
+    position: absolute;
+    right: 55px;
+    top: 335px;
+    z-index: 22;
+}
+blockquote {
+    border-left-color: rgba(90, 126, 140,1) !important;
 }
