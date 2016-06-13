@@ -131,6 +131,12 @@ nav {
     margin-left: 5% !important;
     margin-right: 5% !important;
 }
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+}
 .email-links {
     position: absolute;
     right: 55px;
