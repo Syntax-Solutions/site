@@ -235,12 +235,7 @@ label.error {
 #grayyyy {
     background-color: #ececec;
     z-index: 3;
-    padding: 100px;
     min-height: 100vh;
-}
-
-#grayyyy .container {
-    padding: 100px;
 }
 
 .superbutton {
