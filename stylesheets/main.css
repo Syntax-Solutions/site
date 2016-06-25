@@ -28,7 +28,19 @@ body {
     padding-top: 100px;
     padding-bottom: 100px
 }
+#syntax {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
 
+#solutions {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
 .contact-img {
     border: 1px solid #dedede;
 }
