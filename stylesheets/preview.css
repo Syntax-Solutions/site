@@ -1,0 +1,159 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+    max-width: 100%;
+    color: #444444;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+}
+
+main {
+    height: auto;
+}
+
+.collapsible-header {
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-fluid {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+blockquote {
+    border-left: 5px solid #1565c0 !important
+}
+
+#syntax {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#solutions {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.hr {
+    border-bottom: solid 2px #777 !important;
+}
+
+nav a {
+    color: #fff !important
+}
+
+nav .tiny {
+    font-size: 22px !important
+}
+
+nav {
+    background-color: #2c3e50 !important;
+}
+
+.bold {
+    font-weight: 500;
+    color: cadetblue;
+}
+
+.link {
+    font-weight: 500;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+.rr {
+    float: right;
+}
+
+.post {
+    margin-bottom: 50px;
+    display: block;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white !important
+}
+
+.banner {
+    background-color: cadetblue;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.post-heading {
+    margin-left: 3%;
+}
+
+.huge {
+    font-size: 20px !important;
+}
+
+.post-page {
+    margin-top: 35px;
+}
+
+.page--link {
+    position: absolute;
+    top: -143px;
+    left: 90%;
+    z-index: 10;
+}
+
+.e {
+    font-size: 10rem !important;
+    font-weight: 500;
+}
+
+#slide-out a {
+    color: #333 !important;
+}
+
+.imagelg {
+    background: url(http://streetartlondon.co.uk/artists/files/2011/01/Street-Art-London-11.jpg) center center;
+    height: 300px
+}
+
+p {
+    font-size: 17px;
+}
+
+.inline {
+    display: inline-block;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
