@@ -4,8 +4,9 @@
 
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
+        $('.materialboxed').materialbox();
         $('.modal-trigger').leanModal();
         $('.slider').slider({full_width: true});
-        $('.materialboxed').materialbox();
+        
     });
 })(jQuery);
