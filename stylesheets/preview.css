@@ -134,11 +134,17 @@ footer a {
 
 .imagelg {
     background: url(http://streetartlondon.co.uk/artists/files/2011/01/Street-Art-London-11.jpg) center center;
-    height: 300px
+    height: 300px;
 }
+
 .imagesb {
     background: url(http://www.bluthemes.com/assets/img/blog/12/neihgbourhood.jpg) center center;
-    height: 300px
+    height: 300px;
+}
+
+.imagefc {
+    background: url(http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/Hexagon-3.jpg) center center;
+    height: 300px;
 }
 
 p {
