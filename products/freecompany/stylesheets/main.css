@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-.zframe {z-index: 200;}
+.zframe {
+    z-index: 200;
+}
 .teal-text {
     font-size: 50px;
 }
@@ -22,4 +24,13 @@ a.backtossmessage {
 }
 a.backtossmessage:hover {
   background-color: #595959; text-decoration: none;
+}
+.tiny {
+    font-size: 15px;
+}
+.vcenter {
+    vertical-align: middle;
+}
+.brand-logo {
+    font-size: 10px !important;
 }
