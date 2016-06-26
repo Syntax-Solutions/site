@@ -6,6 +6,6 @@
         $('.parallax').parallax();
         $('.modal-trigger').leanModal();
         $('.slider').slider({full_width: true});
-
+        $('.materialboxed').materialbox();
     });
 })(jQuery);
