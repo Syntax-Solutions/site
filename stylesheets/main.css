@@ -257,14 +257,15 @@ nav {
 }
 .color1 {
     background: #26a69a;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.color1 a {
+    color: white;
 }
 .product-name {
     padding-top: 5px;
-    padding-bottom: 5px;
-}
-.card a {
-    color: #232323
 }
 .zzz {
     font-weight: 300;
