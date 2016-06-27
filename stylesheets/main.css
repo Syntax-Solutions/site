@@ -144,7 +144,7 @@ body {
 .intro {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(/img/background_images/material-1184760_960_720.jpg) left center;
+    background: url(/site/img/background_images/material-1184760_960_720.jpg) left center;
     color: #fff;
 }
 
@@ -261,13 +261,11 @@ nav {
 }
 .product-name {
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 .card a {
     color: #232323
 }
 .zzz {
     font-weight: 300;
-}
-span {
-    display: block;
 }
