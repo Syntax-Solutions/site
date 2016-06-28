@@ -121,6 +121,7 @@ body {
 
 .previous-block a {
     color: #333333;
+    text-transform: none !important;
 }
 
 .padding {
