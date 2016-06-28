@@ -1,7 +1,8 @@
 /*FONTS*/
 
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+
 
 /*STYLE*/
 
@@ -29,14 +30,14 @@ body {
     padding-bottom: 100px
 }
 #syntax {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
 }
 
 #solutions {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
