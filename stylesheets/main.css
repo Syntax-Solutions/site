@@ -73,26 +73,9 @@ body {
 
 
 
-#grayyyy {
+.index {
     background-color: #ececec;
-    z-index: 3;
-    min-height: 100vh;
 }
-
-.superbutton {
-    padding: 15px;
-    color: #e74c3c;
-    border: solid 3px #c0392b;
-    width: 175px;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-
 
 .previouscontainers {
     background-color: #22313F;
