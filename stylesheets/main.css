@@ -1,6 +1,8 @@
 /*FONTS*/
 
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+
 
 /*STYLE*/
 
@@ -75,19 +77,6 @@ body {
     background-color: rgb(239, 239, 239);
 }
 
-.previouscontainers {
-    background-color: #22313F;
-    border-radius: 5px;
-    padding: 0;
-    color: white;
-}
-
-.name-position {
-    background-color: #039BE5;
-    padding: 15px;
-    color: white;
-}
-
 .img-container {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -106,22 +95,8 @@ body {
     text-transform: none !important;
 }
 
-.padding {
-    padding-right: 45px;
-    padding-top: 15px;
-}
-
 .subv {
     text-indent: 10%
-}
-
-.email {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.indent {
-    text-indent: 5%;
 }
 
 .intro-products {
@@ -130,60 +105,16 @@ body {
     background: #437af8;
     color: #fff;
 }
-
+.intro-company {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #ffb300;
+    color: white;
+}
 .position {
-    background-color: #6060c1;
+    background-color: #334750;
     color: white;
     padding: 25px;
-}
-
-.ececec {
-    background-color: #fafafa;
-}
-
-.tabs .indicator {
-    position: absolute;
-    bottom: 0;
-    height: 2px;
-    background-color: #2196f3 !important;
-    will-change: left, right
-}
-
-.tab a {
-    color: #2196f3;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    transition: color .28s ease
-}
-
-.banner {
-    position: absolute;
-    background-color: #437af8;
-    height: 400px;
-    width: 100% overflow-x: hidden;
-}
-
-@media screen and (max-width: 768px) {
-    .banner {
-        height: 250px;
-        overflow-x: hidden;
-    }
-    .card-panel {
-        top: -90px;
-        position: relative;
-        overflow-x: hidden;
-    }
-    .brand-logo {
-        font-size: .7rem;
-    }
-}
-
-big {
-    font-size: 25px;
-    padding-top: 15px;
 }
 
 .container-fluid {
@@ -258,13 +189,22 @@ nav a {
 
 .current a {
     border-bottom: solid 2px #ececec !important;
+    font-family: 'Roboto Slab', serif;
 }
+
+nav ul .noncurrent a {
+    font-family: 'Roboto Slab', serif;
+}
+
 
 nav ul .noncurrent a:hover {
     background-color: transparent !important;
     border-bottom: solid 2px #9e9e9e !important;
+    font-family: 'Roboto Slab', serif;
 }
 
 nav ul a:hover {
     background-color: transparent !important;
+    font-family: 'Roboto Slab', serif;
+
 }
