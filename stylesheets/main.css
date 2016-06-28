@@ -271,7 +271,7 @@ nav {
 .zzz {
     font-weight: 300;
 }
-a {
+nav a {
     font-weight: 500 !important;
     text-decoration: none !important;
     text-transform: uppercase !important;
