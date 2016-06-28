@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/site/stylesheets/main.css">
     <title>Company</title>
-    <link rel="stylesheet" href="/site/stylesheets/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="apple-touch-icon" sizes="60x60" href="/site/img/favicon/60x60.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="/site/img/favicon/72x72.png" />
@@ -32,14 +31,14 @@
     <header>
         <!-- Navigation -->
         <div class="navbar-fixed">
-            <nav>
+            <nav style="background:#ffb300 !important" class="z-depth-0">
                 <div class="nav-wrapper">
                     <div class="container-fluid">
                         <a href="/site/" class="brand-logo"><span id="syntax">syntax</span> <span id="solutions">solutions</span></a>
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="/site/products/">Products</a></li>
-                            <li class="active"><a href="/site/company/">Company</a></li>
+                            <li class="noncurrent"><a href="/site/products/">Products</a></li>
+                            <li class="current"><a href="/site/company/">Company</a></li>
                         </ul>
                     </div>
                     <ul class="side-nav" id="mobile-demo">
@@ -57,13 +56,15 @@
 
 
     <div class="content">
-        <div class="col s12 intro">
-            <h1 class="center">Welcome to Syntax Solutions</h1>
+        <div class="col s12 intro-company">
+            <div class="container">
+                <h1>Company</h1>
+            </div>
         </div>
 
         <div class="container contact-section row">
             <div class="col m4">
-                <div class="contact-block hoverable">
+                <div class="contact-block">
                     <img src="/site/img/profile_content/ryan-profile.jpg" class="circle responsive-img img-profile center-block" width="40%">
                     <h5 class="center"><a href="/site/team/ryan.html">Ryan McBride</a></h5>
                     <p class="center">Boston, MA</p>
@@ -73,7 +74,7 @@
                 </div>
             </div>
             <div class="col m4">
-                <div class="contact-block hoverable">
+                <div class="contact-block">
                     <img src="/site/img/profile_content/shardul-profile.jpg" class="circle responsive-img img-profile center-block" width="40%">
                     <h5 class="center"><a href="/site/team/shardul.html">Shardul Joshi</a></h5>
                     <p class="center">Boston, MA</p>
@@ -83,7 +84,7 @@
                 </div>
             </div>
             <div class="col m4">
-                <div class="contact-block hoverable">
+                <div class="contact-block">
                     <img src="/site/img/profile_content/MrMessinaProfileShot.jpg" class="circle responsive-img img-profile center-block" width="40%">
                     <h5 class="center"><a href="/site/team/messina.html">Michael Messina</a></h5>
                     <p class="center">Boston, MA</p>
