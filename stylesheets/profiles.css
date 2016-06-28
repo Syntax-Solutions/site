@@ -64,14 +64,14 @@ big {
     margin-bottom: 30px;
 }
 #syntax {
-	color: #415b65;
+	color: inherit;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     text-transform: uppercase;
     font-size: 25px;
 }
 #solutions {
-	color: #415b65;
+	color: inherit;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     text-transform: uppercase;
