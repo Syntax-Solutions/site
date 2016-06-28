@@ -30,17 +30,17 @@ body {
     padding-bottom: 100px
 }
 #syntax {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
+    ffont-weight: 500 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
 }
 
 #solutions {
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
+    ffont-weight: 500 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
 }
 .contact-img {
     border: 1px solid #dedede;
