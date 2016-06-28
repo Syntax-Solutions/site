@@ -196,6 +196,9 @@ nav ul .noncurrent a {
     font-family: 'Roboto Slab', serif;
 }
 
+.index nav ul .noncurrent a:hover {
+    font-family: 'Roboto', arial, sans-serif;
+}
 
 nav ul .noncurrent a:hover {
     background-color: transparent !important;
