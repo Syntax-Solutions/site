@@ -1,7 +1,6 @@
 /*FONTS*/
 
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
-@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
 
 
 /*STYLE*/
@@ -189,25 +188,13 @@ nav a {
 
 .current a {
     border-bottom: solid 2px #ececec !important;
-    font-family: 'Roboto Slab', serif;
-}
-
-nav ul .noncurrent a {
-    font-family: 'Roboto Slab', serif;
-}
-
-.index nav ul .noncurrent a:hover {
-    font-family: 'Roboto', arial, sans-serif;
 }
 
 nav ul .noncurrent a:hover {
     background-color: transparent !important;
     border-bottom: solid 2px #9e9e9e !important;
-    font-family: 'Roboto Slab', serif;
 }
 
 nav ul a:hover {
     background-color: transparent !important;
-    font-family: 'Roboto Slab', serif;
-
 }
