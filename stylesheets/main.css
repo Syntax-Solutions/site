@@ -99,14 +99,14 @@ body {
 }
 
 .intro-products {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 65px;
+    padding-bottom: 45px;
     background: #437af8;
     color: #fff;
 }
 .intro-company {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 65px;
+    padding-bottom: 45px;
     background: #ffb300;
     color: white;
 }
