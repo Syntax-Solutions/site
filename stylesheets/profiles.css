@@ -78,14 +78,10 @@ big {
     font-size: 25px;
 
 }
-nav li a {
-    color: #415b65 !important
-}
+
 nav {
-    background: #2c3e50
+    background: #0099e9
 }
-
-
 
 .tabs {
     background: rgba(90, 126, 140,1) !important;
@@ -145,4 +141,9 @@ nav {
 }
 blockquote {
     border-left-color: rgba(90, 126, 140,1) !important;
+}
+nav a {
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
 }
