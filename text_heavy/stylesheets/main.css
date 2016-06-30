@@ -1,0 +1,62 @@
+.above-nav {
+    background: #607D8B;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+body {
+    color: #666666;
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav {
+    background: #546E7A !important;
+}
+
+.img-above-nav {
+    background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center;
+    height: 200px;
+}
+
+.flat {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hr {
+    border-bottom: solid 1px #ececec !important;
+}
+
+.inline {
+    display: inline-block !important;
+}
+
+.vcenter {
+    vertical-align: middle;
+}
+
+.intro {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #437af8;
+    color: #fff;
+}
+
+.brand-logo {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px !important;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #039BE5 !important
+}
+.around-nav {
+    background: #437af8;
+}
