@@ -110,6 +110,12 @@ body {
     background: #ffb300;
     color: white;
 }
+.intro-blog {
+    padding-top: 65px;
+    padding-bottom: 45px;
+    background: #64dd17;
+    color: #fff;
+}
 .position {
     background-color: #334750;
     color: white;
