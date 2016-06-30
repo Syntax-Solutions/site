@@ -12,7 +12,7 @@ html {
 }
 .banner {
     position: absolute;
-    background: #00c853;
+    background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
     height: 300px;
     width: 100%;
     z-index: -1;
@@ -20,6 +20,10 @@ html {
 @media screen and (max-width: 500px) {
     .banner {
         height: 200px;
+    }
+    .card-panelz {
+        margin-top: 30px;
+        position: relative;
     }
 }
 big {
@@ -29,4 +33,13 @@ big {
 .container-fluid {
     margin-left: 5%;
     margin-right: 5%;
+}
+.card-panelz {
+    background: #fff;
+    padding: 35px;
+    color: #666666
+}
+.social {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
