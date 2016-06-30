@@ -1,0 +1,83 @@
+@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+    background: #eeeeee;
+    max-width: 100vw;
+}
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.banner {
+    position: absolute;
+    background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+}
+.banner2 {
+    position: absolute;
+    background: url(http://www.facets.la/fullview/F_2013_181.jpg) ;
+    height: 300px;
+    width: 100%;
+    z-index: -1;  
+}
+.banner3 {
+    position: absolute;
+    background-color: #437af8;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+}
+@media screen and (max-width: 500px) {
+    .banner {
+        height: 200px;
+    }
+    .banner2 {
+        height: 200px;
+    }
+    .banner3 {
+        height: 200px;
+    }
+    .card-panelz {
+        margin-top: 30px;
+        position: relative;
+    }
+}
+big {
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-panelz {
+    background: #fff;
+    padding: 35px;
+    color: #666666
+}
+.social {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#syntax {
+	color: #415b65;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#solutions {
+	color: #415b65;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+nav li a {
+    color: #415b65 !important
+}
