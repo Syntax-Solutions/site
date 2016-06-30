@@ -63,21 +63,3 @@ big {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-#syntax {
-	color: #415b65;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
-}
-#solutions {
-	color: #415b65;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
-
-}
-nav li a {
-    color: #415b65 !important
-}
