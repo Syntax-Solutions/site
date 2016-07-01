@@ -36,7 +36,10 @@ nav {
 }
 
 .vcenter {
-    vertical-align: middle;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    display: inline-block;
 }
 
 .intro {
@@ -57,6 +60,34 @@ blockquote {
     padding-left: 1.5rem;
     border-left: 5px solid #039BE5 !important
 }
+
 .around-nav {
     background: #437af8;
+}
+
+.hero {
+    background: url(https://growingupwell.files.wordpress.com/2013/07/istock_000013994091small.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    line-height: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: white;
+    border: solid 6px #fff;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.title-colored {
+    padding: 15px;
+    color: cadetblue;
+}
+.medium {
+    padding: 25px;
 }
