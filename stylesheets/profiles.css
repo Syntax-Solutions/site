@@ -1,29 +1,33 @@
-@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #333333;
     overflow-x: hidden;
     background: #eeeeee;
     max-width: 100vw;
 }
+
 html {
     max-width: 100vw;
     overflow-x: hidden;
 }
+
 .banner {
     position: absolute;
-    background: url(http://www.facets.la/fullview/F_2013_182.jpg) ;
+    background: url(http://www.facets.la/fullview/F_2013_182.jpg);
     height: 300px;
     width: 100%;
     z-index: -1;
 }
+
 .banner2 {
     position: absolute;
-    background: url(http://www.facets.la/fullview/F_2013_181.jpg) ;
+    background: url(http://www.facets.la/fullview/F_2013_181.jpg);
     height: 300px;
     width: 100%;
-    z-index: -1;  
+    z-index: -1;
 }
+
 .banner3 {
     position: absolute;
     background-color: #437af8;
@@ -31,6 +35,7 @@ html {
     width: 100%;
     z-index: -1;
 }
+
 @media screen and (max-width: 500px) {
     .banner {
         height: 200px;
@@ -46,37 +51,40 @@ html {
         position: relative;
     }
 }
+
 big {
     font-size: 25px;
     padding-top: 15px;
 }
+
 .container-fluid {
     margin-left: 5%;
     margin-right: 5%;
 }
+
 .card-panelz {
     background: #fff;
     padding: 35px;
     color: #666666
 }
+
 .social {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-#syntax {
-	color: inherit;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
-}
-#solutions {
-	color: inherit;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-    text-transform: uppercase;
-    font-size: 25px;
 
+#syntax {
+    font-weight: 400 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
+}
+
+#solutions {
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-size: 20px !important;
 }
 
 nav {
@@ -84,7 +92,7 @@ nav {
 }
 
 .tabs {
-    background: rgba(90, 126, 140,1) !important;
+    background: rgba(90, 126, 140, 1) !important;
     padding-bottom: 25px!important;
 }
 
@@ -99,11 +107,13 @@ nav {
 .tabs .indicator {
     display: none !important;
 }
+
 .banner-top {
-    background: rgba(90, 126, 140,1);
+    background: rgba(90, 126, 140, 1);
     padding-top: 75px;
     z-index: -1;
 }
+
 .page {
     background: #fff;
     padding: 5%;
@@ -112,7 +122,6 @@ nav {
     border-radius: 1px;
     z-index: 1;
     height: auto !important;
-    
 }
 
 @media screen and (max-width: 992px) {
@@ -121,32 +130,37 @@ nav {
         margin-right: 3%;
         padding: 3%;
     }
-    
 }
+
 .container-fluid {
     margin-left: 5% !important;
     margin-right: 5% !important;
 }
+
 @media screen and (max-width: 768px) {
     .container-fluid {
         margin-left: 1% !important;
         margin-right: 1% !important;
     }
 }
+
 .email-links {
     position: absolute;
     right: 55px;
     top: 335px;
     z-index: 22;
 }
+
 blockquote {
-    border-left-color: rgba(90, 126, 140,1) !important;
+    border-left-color: rgba(90, 126, 140, 1) !important;
 }
+
 nav a {
     font-weight: 500 !important;
     text-decoration: none !important;
     text-transform: uppercase !important;
 }
+
 #syntax {
     font-weight: 300 !important;
     text-decoration: none !important;

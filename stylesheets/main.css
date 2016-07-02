@@ -2,7 +2,6 @@
 
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
 
-
 /*STYLE*/
 
 h1,
@@ -10,6 +9,11 @@ h2,
 h3,
 h4 {
     font-family: 'Roboto', arial, sans-serif;
+}
+
+p {
+    color: #696969 !important;
+    font-weight: 500
 }
 
 html {
@@ -30,7 +34,7 @@ body {
 }
 
 #syntax {
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     text-decoration: none !important;
     text-transform: uppercase !important;
     font-size: 20px !important;
@@ -72,8 +76,10 @@ body {
     text-decoration: underline;
 }
 
-.index {
+.spec {
     background-color: rgb(239, 239, 239);
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .img-container {
@@ -91,13 +97,16 @@ body {
 
 .previous-block a {
     color: #333333;
-    text-transform: none !important;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4
 }
 
+
+}
 .subv {
     text-indent: 10%
 }
-
 .intro-products {
     padding-top: 65px;
     padding-bottom: 45px;
@@ -121,89 +130,85 @@ body {
     color: white;
     padding: 25px;
 }
-
 .container-fluid {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .pagination .active {
     background-color: #009688 !important;
 }
-
 .side-nav-logo a:hover {
     background: none;
 }
-
 #index-banner {
+    height: 400px;
+    text-align: left;
+    padding: 45px;
     -webkit-touch-callout: none;
     /* iOS Safari */
+    
     -webkit-user-select: none;
     /* Chrome/Safari/Opera */
+    
     -khtml-user-select: none;
     /* Konqueror */
+    
     -moz-user-select: none;
     /* Firefox */
+    
     -ms-user-select: none;
     /* Internet Explorer/Edge */
+    
     user-select: none;
     /* Non-prefixed version, currently not supported by any browser */
 }
-
-nav {
-    background-color: #334750 !important;
-}
-
 .card {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     border-radius: 2px !important;
 }
-
+nav a {
+    color: #666 !important;
+}
 .absol {
     position: absolute;
     top: 160px;
     right: 25px;
 }
-
 .image-container {
     margin-top: 0 !imporant;
     padding-top: 0px !important;
     background: #546e7a;
 }
-
 .color1 {
     background: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
 }
-
 .color1 a {
     color: inherit;
 }
-
 .product-name {
     padding-top: 5px;
 }
-
 nav a {
     font-weight: 500 !important;
     text-decoration: none !important;
     text-transform: uppercase !important;
 }
-
 .current a {
     border-bottom: solid 2px #ececec !important;
 }
-
 nav ul .noncurrent a:hover {
     background-color: transparent !important;
     border-bottom: solid 2px #9e9e9e !important;
 }
-
 nav ul a:hover {
     background-color: transparent !important;
 }
 .hr {
     border-bottom: solid 2px #777 !important;
+}
+.index .color {
+    color: #673AB7
 }
