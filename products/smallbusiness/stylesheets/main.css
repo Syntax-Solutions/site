@@ -23,7 +23,7 @@ hr {
     background: #607d8b !important;
 }
 .hero {
-    background: url(img/WDF_1712057.jpg);
+    background: url(../img/WDF_1712057.jpg);
     background-size: cover;
     height: 600px;
     width: 100%;
