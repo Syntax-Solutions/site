@@ -1,7 +1,7 @@
 @import ("https://fonts.googleapis.com/css?family=Roboto:400,700,300");
 body {
     font-family: 'Roboto',sans-serif;
-    color: #333333;
+    color: #666666;
     overflow-x: hidden;
 }
 hr {
@@ -9,8 +9,8 @@ hr {
     position: relative;
 }
 #section2 {
-    padding-bottom: 200px;
-    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
     background-color: #e8eaf6;
 }
 #section2 a {
@@ -21,4 +21,38 @@ hr {
 }
 .pagination > .active {
     background: #607d8b !important;
+}
+.hero {
+    background: url(/img/WDF_1712057.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    line-height: 600px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+nav a {
+    color: cadetblue !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.brand-logo {
+    font-size: 20px !important;
+}
+p {
+    color: darkslategray;
+    font-weight: 500;
+}
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
 }
