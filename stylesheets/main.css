@@ -119,14 +119,14 @@ body {
     padding-bottom: 45px;
     background: #ffb300;
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace !important;
 }
 .intro-blog {
     padding-top: 65px;
     padding-bottom: 45px;
     background: #00c853;
     color: #fff;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace !important;
 }
 .position {
     background-color: #334750;
