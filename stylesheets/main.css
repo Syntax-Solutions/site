@@ -61,8 +61,8 @@ body {
 }
 
 .contact-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hover-underline:hover {
@@ -205,8 +205,9 @@ nav ul .noncurrent a:hover {
 nav ul a:hover {
     background-color: transparent !important;
 }
-.hr {
-    border-bottom: solid 2px #777 !important;
+.hr-company {
+    border-bottom: solid 5px #ffb300  !important;
+    width: 40px;
 }
 .index .color {
     color: #673AB7
@@ -215,4 +216,7 @@ nav ul a:hover {
 .index a {
     color: #673AB7;
 }
+.company-page h5 {
+    color: #696969;
+    font-size: 20px !important;
 }
