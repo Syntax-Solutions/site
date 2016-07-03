@@ -5,13 +5,6 @@
 
 /*STYLE*/
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Roboto', arial, sans-serif;
-}
-
 p {
     color: #696969 !important;
     font-weight: 500
@@ -22,7 +15,6 @@ html {
 }
 
 body {
-    font-family: 'Roboto', arial, sans-serif;
     background: #fff;
     overflow-x: hidden;
     max-width: 100%;
