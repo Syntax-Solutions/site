@@ -1,9 +1,10 @@
 /*FONTS*/
 
-@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
+
 
 /*STYLE*/
-
+s
 h1,
 h2,
 h3,
@@ -118,12 +119,14 @@ body {
     padding-bottom: 45px;
     background: #ffb300;
     color: white;
+    font-family: 'Roboto Mono', monospace;
 }
 .intro-blog {
     padding-top: 65px;
     padding-bottom: 45px;
     background: #00c853;
     color: #fff;
+    font-family: 'Roboto Mono', monospace;
 }
 .position {
     background-color: #334750;
