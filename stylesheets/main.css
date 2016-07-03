@@ -121,7 +121,7 @@ body {
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
 }
-blockquote .blog {
+blockquote.blog {
     border-left-color: #00897B !important;
 }
 .position {
