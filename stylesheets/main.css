@@ -117,9 +117,12 @@ body {
 .intro-blog {
     padding-top: 65px;
     padding-bottom: 45px;
-    background: #00c853;
+    background: #00897B;
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
+}
+blockquote .blog {
+    border-left-color: #00897B !important;
 }
 .position {
     background-color: #334750;
