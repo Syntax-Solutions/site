@@ -1,36 +1,67 @@
-@import "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-.zframe {
-    z-index: 200;
+@import 'https://fonts.googleapis.com/css?family=Courgette';
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #333 !important
 }
-.teal-text {
-    font-size: 50px;
-}
-.card-panel {
-    text-align: center;
-}
-.pagination .active {
-    background-color: #4db6ac !important;
-}
-h1, h2 {
-  font-family: 'Montserrat', sans-serif;
-}
-.fixed {
-  position: fixed;
-}
-a.backtossmessage {
-  position: fixed; bottom: 0; background-color: #262626; color: #fff; text-align: center; width: 100%; padding: 1%; text-decoration: none;
-  z-index: 7;
-}
-a.backtossmessage:hover {
-  background-color: #595959; text-decoration: none;
-}
-.tiny {
-    font-size: 15px;
+p {
+    color: #696969;
+    font-weight: 500 !important;
 }
 .vcenter {
     vertical-align: middle;
 }
 .brand-logo {
-    font-size: 10px !important;
+    font-size: 25px !important;
+    font-family: 'Courgette', cursive;
+}
+.hero {
+    background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    line-height: 500px;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    width: 70%;
+    text-transform: uppercase;
+}
+.hr {
+    border-bottom: solid 6px #03A9F4;
+    width: 70px;
+}
+.hr-h5 {
+    border-bottom: solid 6px #03A9F4;
+    width: 30px;
+}
+h5 {
+    font-size: 24px !important;
+}
+.color {
+    background: #03A9F4;
+    height: 100%;
+}
+.first-color {
+    background: #0288D1;
+    padding: 5px;
+}
+.second-color {
+    background: #039BE5;
+    padding: 20px;
+    text-align: center;
+}
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ul.pagination > .active {
+    background: #039BE5 !important;
 }
