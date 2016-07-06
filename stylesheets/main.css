@@ -220,13 +220,13 @@ nav ul a:hover {
     color: #696969;
     font-size: 20px !important;
 }
-.ss-products-type-badge {
+.product-type-badge {
     margin: 10px 10px 10px 0px;
     border: 1px solid #437af8 !important;
 }
-.ss-products-type-badge span {
+.product-type-badge span {
     color: #437af8;
 }
-.ss-products-type-badge:hover {
+.product-type-badge:hover {
     cursor: default;
 }
