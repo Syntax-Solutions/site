@@ -1,43 +1,61 @@
-/*SYNTAX SOLUTIONS*/
-@import  "https://fonts.googleapis.com/css?family=Roboto:400,700,300";
+@import 'https://fonts.googleapis.com/css?family=Grand+Hotel';
+
 body {
     font-family: 'Roboto',sans-serif;
-    color: #333333;
+    color: #666666;
     overflow-x: hidden;
 }
-.banner {
-    position: absolute;
-    background-color: #437af8;
-    height: 400px;
-    width: 100%;
-    z-index: -1;
-}
-@media screen and (max-width: 768px) {
-    .banner {
-        height: 250px;
-    }
-    .card-panel {
-        top: -90px;
-        position: relative;
-    }
-}
-big {
-    font-size: 25px;
-    padding-top: 15px;
-}
+
 .container-fluid {
     margin-left: 5%;
     margin-right: 5%;
 }
-.table-of-contents a:hover {
-    color:#a8a8a8;
-    padding-left:19px;
-    border-left:2px solid #fff
+.brand-logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: auto !important;
 }
-.table-of-contents {
-    margin-top: 100px;
-    position: absolute;
+nav a {
+    color: #696969 !important;
 }
-.footer-copyright {
-    background-color: white;
+.logo {
+    height: 55px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-right: 15px;
+}
+.vcenter {
+    vertical-align: middle;
+}
+.hero {
+    background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    line-height: 600px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.hero-content {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.l200 {
+    font-weight: 200 !important;   
+}
+nav ul a:hover {
+    background-color: transparent !important;
+    color: cadetblue !important;
+}
+.fab {
+    margin-top: -78px !important;
+}
+.greyz { 
+    background: rgb(246, 246, 246) !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
