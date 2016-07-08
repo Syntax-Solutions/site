@@ -1,5 +1,29 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700';
-@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:500';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,500';
+h1 {
+    font-size: 4.2rem;
+    font-weight: inherit;
+}
+
+h2 {
+    font-size: 3.8rem;
+    font-weight: inherit;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: inherit;
+}
+
+h4 {
+    font-size: 2.8rem;
+    font-weight: inherit;
+}
+
+h5 {
+    font-size: 2.4rem;
+    font-weight: inherit;
+}
 
 
 body {
@@ -12,16 +36,24 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    margin-top: 65px;
 }
+
+.color {
+    background-color: cadetblue;
+}
+
 html {
     overflow-x: hidden;
 }
+
 .fixed-nav {
     display: block;
     position: fixed;
     top: 0;
     width: 100%;
 }
+
 nav {
     display: block;
     background-color: cadetblue;
@@ -31,12 +63,14 @@ nav {
     overflow-x: hidden;
     height: 65px;
 }
+
 nav a {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
     text-decoration: none;
 }
+
 nav li {
     list-style: none;
     display: inline-block;
@@ -44,19 +78,116 @@ nav li {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .wrapper-nav {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 nav ul {
     display: inline-block;
 }
+
 nav ul.right {
     float: right;
 }
-a.brand  {
+
+a.brand {
     font-family: 'Roboto Mono', monospace !important;
     font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .brand a {
+        text-align: center !important;
+    }
+    ul.right {
+        display: none;
+    }
+    a.small {
+        display: block !important;
+        float: right;
+    }
+}
+
+a.small {
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ececec;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #cccccc;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+#main,
+header,
+footer {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.responsive-img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.side-nav-logo {
+    padding: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
 }
 
 .badge {
