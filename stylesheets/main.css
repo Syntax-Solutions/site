@@ -121,6 +121,13 @@ body {
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
 }
+.intro-specs {
+    padding-top: 65px;
+    padding-bottom: 45px;
+    background: #673AB7;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace !important;
+}
 blockquote.blog {
     border-left-color: #00897B !important;
 }
@@ -207,7 +214,7 @@ nav ul a:hover {
 }
 .hr-company {
     border-bottom: solid 5px #ffb300  !important;
-    width: 40px;
+    width: 50px;
 }
 .index .color {
     color: #673AB7
@@ -229,4 +236,62 @@ nav ul a:hover {
 }
 .product-type-badge:hover {
     cursor: default;
+}
+blockquote.blockquote-specs {
+    border-left: 5px solid #673AB7 !important;
+}
+.specs-side-nav {
+    border-radius: 5px;
+    background: #ececec;
+}
+.hr-specs {
+    border-bottom: solid 5px #673AB7  !important;
+    width: 50px;
+}
+.ss-language-markup {
+    padding: 30px;
+    font-family: "Courier New", Courier, monospace;
+}
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #1976d2 !important;
+    will-change: left, right
+}
+
+.tabs .tab a {
+    color: #1976d2 !important;
+}
+
+.tabs .tab a:hover {
+    color: rgba(25, 118, 210, 0.7) !important;
+}
+.tabs {
+    background: #673AB7 !important;
+    padding-bottom: 25px!important;
+}
+
+.tabs .tab a {
+    color: white !important;
+}
+
+.tabs .tab a:hover {
+    color: #eeeeee !important;
+}
+
+.tabs .indicator {
+    background-color: #fff !important;
+}
+
+.badge {
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: none;
+  padding: 10px 2rem;
+  background: #fff;
 }
