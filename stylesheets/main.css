@@ -287,4 +287,5 @@ blockquote.blockquote-specs {
   box-shadow: none;
   padding: 4px 2rem;
   background: #fff;
+  cursor: default;
 }
