@@ -12,29 +12,48 @@
     <title>SSCCSS</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
+<div class="main">
 
-<body>
-    <header>
-        <!-- Navigation -->
-        <nav>
-            <div class="wrapper-nav">
-                <ul>
-                    <li><a href="/" class="brand">
-                SSC.CSS</a></li>
-                </ul>
-                <ul class="right">
-                    <li><a href="">Docs</a></li>
-                    <li><a href="">Download</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="intro"
+    <body>
+        <header>
+            <!-- Navigation -->
+            <nav>
+                <div class="wrapper-nav">
+                    <a href="javascript:void(0)" class="small" onclick="openNav()"><i class="fa fa-bars" ></i></a>
+                    <ul>
+                        <li><a href="/" class="brand">
+                SSC.CSS</a>
+                        </li>
+                    </ul>
+                    <ul class="right">
+                        <li><a href="">Docs</a></li>
+                        <li><a href="">Download</a></li>
+                    </ul>
+                </div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="side-nav-logo">
+                        <img class="responsive-img" src="http://syntax-solutions.xyz/img/favicon/192x192.png">
+                    </div>
+
+                    <a href="" class="center">Docs</a>
+                    <a href="" class="center">Download</a>
+                </div>
+            </nav>
+        </header>
+        
+
+        <div class="intro color">
+            <h2 class="center">ssc.css</h2>
+        </div>
 
 
-    <!-- end page -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-</body>
+        <!-- end page -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</div>
 
 </html>
