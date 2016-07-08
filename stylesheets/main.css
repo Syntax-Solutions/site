@@ -106,26 +106,20 @@ body {
     background: #437af8;
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
+    box-shadow: 0 4px 6px -4px black;
+    -webkit-box-shadow: 0 4px 6px -4px black;
+    -moz-box-shadow: 0 4px 6px -4px black;
 }
-.intro-products:after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    margin-top: 88px;
-    margin-left: -75px;
-    display: block;
-    position: absolute;
-    z-index: -1;
-    -webkit-box-shadow: 0px 0px 8px 2px #000000;
-       -moz-box-shadow: 0px 0px 8px 2px #000000;
-            box-shadow: 0px 0px 8px 2px #000000;
-}
+
 .intro-company {
     padding-top: 65px;
     padding-bottom: 45px;
     background: #ffb300;
     color: white;
     font-family: 'Roboto Mono', monospace !important;
+    box-shadow: 0 4px 6px -4px black;
+    -webkit-box-shadow: 0 4px 6px -4px black;
+    -moz-box-shadow: 0 4px 6px -4px black;
 }
 .intro-blog {
     padding-top: 65px;
@@ -133,6 +127,9 @@ body {
     background: #00897B;
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
+    box-shadow: 0 4px 6px -4px black;
+    -webkit-box-shadow: 0 4px 6px -4px black;
+    -moz-box-shadow: 0 4px 6px -4px black;
 }
 .intro-specs {
     padding-top: 65px;
@@ -140,6 +137,9 @@ body {
     background: #673AB7;
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
+    box-shadow: 0 4px 6px -4px black;
+    -webkit-box-shadow: 0 4px 6px -4px black;
+    -moz-box-shadow: 0 4px 6px -4px black;
 }
 blockquote.blog {
     border-left-color: #00897B !important;
