@@ -245,37 +245,7 @@ blockquote.blockquote-specs {
     padding: 30px;
     font-family: "Courier New", Courier, monospace;
 }
-.tabs .indicator {
-    position: absolute;
-    bottom: 0;
-    height: 2px;
-    background-color: #1976d2 !important;
-    will-change: left, right
-}
 
-.tabs .tab a {
-    color: #1976d2 !important;
-}
-
-.tabs .tab a:hover {
-    color: rgba(25, 118, 210, 0.7) !important;
-}
-.tabs {
-    background: #673AB7 !important;
-    padding-bottom: 25px!important;
-}
-
-.tabs .tab a {
-    color: white !important;
-}
-
-.tabs .tab a:hover {
-    color: #eeeeee !important;
-}
-
-.tabs .indicator {
-    background-color: #fff !important;
-}
 
 .badge {
   border: 1px;
