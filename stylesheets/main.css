@@ -229,13 +229,6 @@ nav ul a:hover {
 }
 .product-type-badge {
     margin: 10px 10px 10px 0px;
-    border: 1px solid #437af8 !important;
-}
-.product-type-badge span {
-    color: #437af8;
-}
-.product-type-badge:hover {
-    cursor: default;
 }
 blockquote.blockquote-specs {
     border-left: 5px solid #673AB7 !important;
@@ -292,6 +285,6 @@ blockquote.blockquote-specs {
   text-align: center;
   font-size: 1.1rem;
   box-shadow: none;
-  padding: 10px 2rem;
+  padding: 4px 2rem;
   background: #fff;
 }
