@@ -245,6 +245,26 @@ blockquote.blockquote-specs {
     padding: 30px;
     font-family: "Courier New", Courier, monospace;
 }
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #673AB7 !important;
+    will-change: left, right
+}
+
+.tabs .tab a {
+    color: #673AB7 !important;
+}
+
+.tabs .tab a:hover {
+    color: #673AB7 !important;
+}
+.tabs {
+    background: transparent !important;
+    padding-bottom: 25px!important;
+}
+
 
 
 .badge {
