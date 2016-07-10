@@ -3,6 +3,7 @@
 h1 {
     font-size: 4.2rem;
     font-weight: inherit;
+    margin-bottom: 0px;
 }
 
 h2 {
@@ -25,6 +26,11 @@ h5 {
     font-weight: inherit;
 }
 
+p {
+    font-size: inherit;
+    font-weight: 500;
+    color: #696969;
+}
 
 body {
     background: inherit;
@@ -111,6 +117,13 @@ a.brand {
     }
 }
 
+@media screen and (max-width: 540px) {
+    .container {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+}
+
 a.small {
     display: none;
     padding-top: 5px;
@@ -188,6 +201,24 @@ ul li {
 
 .center {
     text-align: center;
+}
+
+.intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: 300 !imporant;
+    color: white;
+}
+.container {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.light {
+    font-weight: 300 !important;
+}
+
+a {
+    color: cadetblue;
 }
 
 .badge {
