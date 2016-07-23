@@ -106,9 +106,6 @@ body {
     background: #437af8;
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
-    box-shadow: 0 4px 6px -4px black;
-    -webkit-box-shadow: 0 4px 6px -4px black;
-    -moz-box-shadow: 0 4px 6px -4px black;
 }
 
 .intro-company {
@@ -117,9 +114,6 @@ body {
     background: #ffb300;
     color: white;
     font-family: 'Roboto Mono', monospace !important;
-    box-shadow: 0 4px 6px -4px black;
-    -webkit-box-shadow: 0 4px 6px -4px black;
-    -moz-box-shadow: 0 4px 6px -4px black;
 }
 .intro-blog {
     padding-top: 65px;
@@ -127,9 +121,6 @@ body {
     background: #00897B;
     color: #fff;
     font-family: 'Roboto Mono', monospace !important;
-    box-shadow: 0 4px 6px -4px black;
-    -webkit-box-shadow: 0 4px 6px -4px black;
-    -moz-box-shadow: 0 4px 6px -4px black;
 }
 .intro-specs {
     padding-top: 65px;
@@ -278,8 +269,6 @@ blockquote.blockquote-specs {
     padding-bottom: 25px!important;
 }
 
-
-
 .badge {
   border: 1px;
   border-style: solid;
@@ -291,4 +280,7 @@ blockquote.blockquote-specs {
   padding: 4px 2rem;
   background: #fff;
   cursor: default;
+}
+.company-color {
+    background: #ffb300;
 }
