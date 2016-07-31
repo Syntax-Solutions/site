@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     max-width: 100%;
     color: #444444;
-    background-color: #FAFAFA;
+    background-color: #fff;
 }
 
 h1,
@@ -82,7 +82,7 @@ nav .tiny {
 
 footer {
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     color: #616161
 }
 
@@ -97,10 +97,14 @@ footer span {
     font-family: 'Roboto Mono', monospace !important;
 }
 
-.dark i {
+.social-icons i {
     font-size: 25px;
     padding: 10px;
-    color: #424242 !important;
+    color: #424242
+}
+
+.dark {
+    background: #FAFAFA;
 }
 
 .banner {

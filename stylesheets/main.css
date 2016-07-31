@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background: #FAFAFA;
+    background: #FFF;
     overflow-x: hidden;
     max-width: 100%;
     color: #444444;
@@ -286,7 +286,7 @@ blockquote.blockquote-specs {
 }
 footer {
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     color: #616161
 }
 footer a {
@@ -298,8 +298,11 @@ footer span {
     font-weight: 500;
     font-family: 'Roboto Mono', monospace !important;
 }
-.dark i {
+.social-icons i {
     font-size: 25px;
     padding: 10px;
     color: #424242
+}
+.dark {
+    background: #FAFAFA;
 }
