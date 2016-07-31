@@ -8,14 +8,15 @@ body {
     overflow-x: hidden;
     max-width: 100%;
     color: #444444;
-    background-color: #fff;
+    background-color: #F5F5F5;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5, {
+h5,
+{
     font-family: proxima-nova, sans-serif;
     font-weight: 300;
 }
@@ -56,7 +57,6 @@ blockquote {
     border-bottom: solid 2px #777 !important;
 }
 
-
 nav .tiny {
     font-size: 22px !important
 }
@@ -82,11 +82,26 @@ nav .tiny {
 }
 
 footer {
-    color: white;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #616161
 }
 
 footer a {
-    color: white !important
+    color: #616161 !important;
+    font-weight: 500;
+}
+
+footer span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+.dark i {
+    font-size: 25px;
+    padding: 10px;
+    color: #424242 !important;
 }
 
 .banner {
@@ -138,14 +153,17 @@ footer a {
     background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center;
     height: 300px;
 }
+
 .imagefp {
     background: url(http://thesuperslice.com/wp-content/uploads/2012/09/Islands.jpg) center center;
     height: 300px;
 }
+
 .imagehp {
     background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center;
     height: 300px;
 }
+
 p {
     font-size: 17px;
 }
@@ -180,17 +198,15 @@ p {
     background: #fbc02d;
     padding: 30px;
 }
-footer .nav {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
-    font-family: 'Roboto', arial, sans-serif !important;
-}
+
 .bottom {
     margin-top: 35px;
 }
+
 .next {
     margin-left: 60%;
 }
+
 nav a {
     font-weight: 500 !important;
     text-decoration: none !important;

@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #F5F5F5;
     overflow-x: hidden;
     max-width: 100%;
     color: #444444;
@@ -283,4 +283,23 @@ blockquote.blockquote-specs {
 }
 .company-color {
     background: #ffb300;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #616161
+}
+footer a {
+    color: #616161 !important;
+    font-weight: 500;
+}
+footer span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace !important;
+}
+.dark i {
+    font-size: 25px;
+    padding: 10px;
+    color: #424242
 }
