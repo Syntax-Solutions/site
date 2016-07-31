@@ -149,7 +149,7 @@ footer span {
 
 .imagesb {
     background: url(https://www.google.com/chromebook/static/images/devices-hero.jpg);
-    background-size: contain;
+    background-size: cover;
     height: 300px;
 }
 
