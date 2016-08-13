@@ -154,6 +154,7 @@ blockquote.blog {
     height: 550px;
     text-align: left;
     padding: 45px;
+    width: 100% !important;
     -webkit-touch-callout: none;
     /* iOS Safari */
     
@@ -305,4 +306,42 @@ footer span {
 }
 .dark {
     background: #FAFAFA;
+}
+.mono {
+    font-family: 'Roboto Mono', monospace !important;
+    color: white;
+    top: 500px !important;
+    position: absolute;
+    z-index: 33;
+    font-size: 17px !important;
+}
+.withinmono {
+    color: white;
+    top: 515px !important;
+    position: absolute;
+    z-index: 33;
+    font-size: 20px !important;
+    right: 20px !important;
+}
+.mono-text {
+    font-family: 'Roboto Mono', monospace !important;
+    color: white;
+    z-index: 33;
+    font-size: 17px !important;
+    
+}
+.mono-text.title {
+    font-size: 24px !important;
+}
+.product-tile {
+    background: url(https://i.ytimg.com/vi/xYkz0Ueg0L4/maxresdefault.jpg);
+    background-size: cover;
+    width: 100%;
+    border-radius: 3px;
+}
+.company-tile {
+    background: url(https://material-design.storage.googleapis.com/publish/material_v_8/material_ext_publish/0Bx4BSt6jniD7QTA5cHFBUlV3RTA/materialdesign_goals_language.png);
+    background-size: cover;
+    width: 100%;
+    border-radius: 3px;
 }
