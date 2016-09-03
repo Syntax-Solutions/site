@@ -1,6 +1,8 @@
 /*FONTS*/
 
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+
 
 
 /*STYLE*/
@@ -172,6 +174,7 @@ blockquote.blog {
     
     user-select: none;
     /* Non-prefixed version, currently not supported by any browser */
+    font-family: "Roboto Slab", "Roboto", arial;
 }
 .card {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
