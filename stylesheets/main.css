@@ -2,6 +2,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono';
 @import 'https://fonts.googleapis.com/css?family=Roboto+Slab:300';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 
 
@@ -14,6 +15,7 @@ p {
 
 html {
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -21,6 +23,7 @@ body {
     overflow-x: hidden;
     max-width: 100%;
     color: #444444;
+    font-family: 'Roboto', sans-serif;
 }
 
 #offerings {
