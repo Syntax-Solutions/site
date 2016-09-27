@@ -257,7 +257,13 @@ a {
     line-height: 1.1;
 }
 
-.date-card .rest-of-date i {
+.date-card .rest-of-date i.month {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.date-card .rest-of-date i.year {
     font-size: 18px;
     font-weight: 300;
 }
