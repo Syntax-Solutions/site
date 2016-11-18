@@ -1,102 +1,16 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700';
-@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,500';
-h1 {
-    font-size: 4.2rem;
-    font-weight: inherit;
-    margin-bottom: 0px;
-}
 
-h2 {
-    font-size: 3.8rem;
-    font-weight: inherit;
-}
 
-h3 {
-    font-size: 3.2rem;
-    font-weight: inherit;
-}
 
-h4 {
-    font-size: 2.8rem;
-    font-weight: inherit;
-}
 
-h5 {
-    font-size: 2.4rem;
-    font-weight: inherit;
-}
 
-p {
-    font-size: inherit;
-    font-weight: 500;
-    color: #696969;
-}
 
-body {
-    background: inherit;
-    color: #333333;
-    display: block;
-    float: none;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    margin-top: 65px;
-}
 
-.color {
-    background-color: cadetblue;
-}
 
-html {
-    overflow-x: hidden;
-}
 
-.fixed-nav {
-    display: block;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
-nav {
-    display: block;
-    background-color: cadetblue;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    overflow-x: hidden;
-    height: 65px;
-}
 
-nav a {
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-decoration: none;
-}
 
-nav li {
-    list-style: none;
-    display: inline-block;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
-.wrapper-nav {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-nav ul {
-    display: inline-block;
-}
-
-nav ul.right {
-    float: right;
-}
 
 a.brand {
     font-family: 'Roboto Mono', monospace !important;
@@ -133,6 +47,260 @@ a.small {
     right: 5%;
 }
 
+
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* # */
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,500';
+
+/* A */
+
+a {
+    color: cadetblue;
+}
+
+/* B */
+
+.badge {
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: none;
+  padding: 4px 2rem;
+  background: #fff;
+  cursor: default;
+}
+
+body {
+    background: inherit;
+    color: #333333;
+    display: block;
+    float: none;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    margin-top: 65px;
+}
+
+/* C */
+
+.center {
+    text-align: center;
+}
+
+.color {
+    background-color: cadetblue;
+}
+
+.container {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+/* D */
+
+.date-card {
+    height: 300px;
+}
+
+.date-card .day-of-the-week {
+    background-color: #009688;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.date-card .rest-of-date {
+    background-color: #4DB6AC;
+    height: 190px;
+    text-align: center;
+}
+
+.date-card .rest-of-date i.month {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.date-card .rest-of-date i.year {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.date-card .rest-of-date span {
+    font-size: 4.2rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+/* E */
+
+/* F */
+
+.fixed-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    transition: margin-left .5s;
+}
+
+/* G */
+
+/* H */
+
+h1 {
+    font-size: 4.2rem;
+    font-weight: inherit;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 3.8rem;
+    font-weight: inherit;
+}
+
+h3 {
+    font-size: 3.2rem;
+    font-weight: inherit;
+}
+
+h4 {
+    font-size: 2.8rem;
+    font-weight: inherit;
+}
+
+h5 {
+    font-size: 2.4rem;
+    font-weight: inherit;
+}
+
+header {
+    transition: margin-left .5s;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* I */
+
+.intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: 300 !imporant;
+    color: white;
+}
+
+/* J */
+
+/* K */
+
+/* L */
+
+.light {
+    font-weight: 300 !important;
+}
+
+/* M */
+
+#main {
+    transition: margin-left .5s;
+}
+
+/* N */
+
+nav {
+    display: block;
+    background-color: cadetblue;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    overflow-x: hidden;
+    height: 65px;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul.right {
+    float: right;
+}
+
+/* O */
+
+/* P */
+
+p {
+    font-size: inherit;
+    font-weight: 500;
+    color: #696969;
+}
+
+/* Q */
+
+/* R */
+
+.responsive-img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+/* S */
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -161,18 +329,8 @@ a.small {
     color: #cccccc;
 }
 
-.closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px !important;
-    margin-left: 50px;
-}
-
-#main,
-header,
-footer {
-    transition: margin-left .5s;
+.side-nav-logo {
+    padding: 30px;
 }
 
 @media screen and (max-height: 450px) {
@@ -184,86 +342,25 @@ footer {
     }
 }
 
-.responsive-img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    display: block;
-}
+/* T */
 
-.side-nav-logo {
-    padding: 30px;
-}
+/* U */
 
 ul li {
     list-style: none;
 }
 
-.center {
-    text-align: center;
+/* V */
+
+/* W */
+
+.wrapper-nav {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.intro {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-weight: 300 !imporant;
-    color: white;
-}
-.container {
-    padding-left: 12%;
-    padding-right: 12%;
-}
-.light {
-    font-weight: 300 !important;
-}
+/* X */
 
-a {
-    color: cadetblue;
-}
+/* Y */
 
-.badge {
-  border: 1px;
-  border-style: solid;
-  border-radius: 3px;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.1rem;
-  box-shadow: none;
-  padding: 4px 2rem;
-  background: #fff;
-  cursor: default;
-}
-
-.date-card {
-    height: 300px;
-}
-
-.date-card .day-of-the-week {
-    background-color: #009688;
-    padding-top:20px;
-    padding-bottom:20px;
-    text-align: center;
-}
-
-.date-card .rest-of-date {
-    background-color: #4DB6AC;
-    height: 190px;
-    text-align: center;
-}
-
-.date-card .rest-of-date span {
-    font-size: 4.2rem;
-    font-weight: 400;
-    line-height: 1.1;
-}
-
-.date-card .rest-of-date i.month {
-    font-size: 18px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-.date-card .rest-of-date i.year {
-    font-size: 18px;
-    font-weight: 300;
-}
+/* Z */
