@@ -1,80 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a.brand {
-    font-family: 'Roboto Mono', monospace !important;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-@media screen and (max-width: 768px) {
-    .brand a {
-        text-align: center !important;
-    }
-    ul.right {
-        display: none;
-    }
-    a.small {
-        display: block !important;
-        float: right;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .container {
-        padding-left: 3% !important;
-        padding-right: 3% !important;
-    }
-}
-
-a.small {
-    display: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: absolute;
-    top: 15px;
-    right: 5%;
-}
-
-
-
-.closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px !important;
-    margin-left: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* # */
 
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700';
@@ -114,6 +37,19 @@ body {
     margin-top: 65px;
 }
 
+a.brand {
+    font-family: 'Roboto Mono', monospace !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .brand a {
+        text-align: center !important;
+    }
+}
+
+
 /* C */
 
 .center {
@@ -127,6 +63,21 @@ body {
 .container {
     padding-left: 12%;
     padding-right: 12%;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
 }
 
 /* D */
@@ -342,6 +293,23 @@ p {
     }
 }
 
+a.small {
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    a.small {
+        display: block !important;
+        float: right;
+    }
+}
+
+
 /* T */
 
 /* U */
@@ -349,6 +317,13 @@ p {
 ul li {
     list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+    ul.right {
+        display: none;
+    }
+}
+
 
 /* V */
 
