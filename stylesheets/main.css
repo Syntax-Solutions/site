@@ -386,3 +386,27 @@ footer span {
     width: 100%;
     border-radius: 3px;
 }
+#showcase-banner {
+    height: 250px;
+    line-height: 1px !important;
+    padding: 45px;
+    width: 100% !important;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    
+    -khtml-user-select: none;
+    /* Konqueror */
+    
+    -moz-user-select: none;
+    /* Firefox */
+    
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    
+    user-select: none;
+    /* Non-prefixed version, currently not supported by any browser */
+    font-family: "Roboto Slab", "Roboto", arial;
+}
