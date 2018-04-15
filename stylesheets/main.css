@@ -409,3 +409,7 @@ footer span {
     /* Non-prefixed version, currently not supported by any browser */
     font-family: "Roboto Slab", "Roboto", arial;
 }
+.imagelg, .imagesb, .imagefc, .imagefp, .imagehp {
+    background: #437af8 !important;
+    height: 300px;
+}

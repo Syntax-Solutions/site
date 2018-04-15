@@ -143,7 +143,7 @@ footer span {
 }
 
 .imagelg {
-    background: url(http://streetartlondon.co.uk/artists/files/2011/01/Street-Art-London-11.jpg) center center;
+    background: url(https://www.essentialliving.co.uk/wp-content/uploads/2017/07/east-london-street-art-zabou.jpg) center center;
     height: 300px;
 }
 
@@ -154,7 +154,7 @@ footer span {
 }
 
 .imagefc {
-    background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center;
+    background: url(https://pixabay.com/get/ef3cb10e28f01c22d9584518a33219c8b66ae3d01bb2194091f8c77d/mountain-690104_1920.jpg) center center;
     height: 300px;
 }
 
@@ -164,8 +164,8 @@ footer span {
 }
 
 .imagehp {
-    background: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center;
-    height: 300px;
+    background: url(https://pixabay.com/get/ef3cb10e28f01c22d9584518a33219c8b66ae3d01bb2194091f8c77d/mountain-690104_1920.jpg) center center;
+    height: 300px !important;
 }
 
 p {
