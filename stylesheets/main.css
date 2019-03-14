@@ -215,6 +215,10 @@ nav a {
 .current a {
     border-bottom: solid 2px #ececec !important;
 }
+nav ul .noncurrent a {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
 nav ul .noncurrent a:hover {
     background-color: transparent !important;
     border-bottom: solid 2px #9e9e9e !important;
