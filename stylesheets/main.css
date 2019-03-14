@@ -413,3 +413,20 @@ footer span {
     background: #437af8 !important;
     height: 300px;
 }
+.inline {
+    display: inline-block !important;
+    align-items: center !important;
+    vertical-align: middle!important;
+    line-height: inherit;
+    
+}
+
+.highlight {
+    background-color: #274a6b;
+    padding: 5px;
+    display: inline-block;
+}
+
+.header {
+    font-family: "Roboto", "Arial", sans-serif;
+}
